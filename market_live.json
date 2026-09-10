@@ -1,6 +1,6 @@
 {
-  "version": "1.5",
-  "updated_at": "2026-09-10 19:58:44",
+  "version": "1.6",
+  "updated_at": "2026-09-10 20:04:36",
   "status": "running",
   "core_provider": "tencent",
   "indices": [
@@ -248,10 +248,10 @@
     }
   ],
   "market": {
-    "status": "ok",
+    "status": "cached",
     "provider": "sina_market",
     "updated_at": "2026-09-10 19:58:35",
-    "stale": false,
+    "stale": true,
     "sample_count": 5560,
     "user_tradable_sample": 4413,
     "up": 955,
@@ -1514,13 +1514,17 @@
     ],
     "sentiment_score": 18.2,
     "sentiment_label": "冰点/强退潮",
-    "source_attempt_errors": []
+    "source_attempt_errors": [
+      "sina_market: <HTTPError 456: ''>",
+      "eastmoney_market: RemoteDisconnected('Remote end closed connection without response')"
+    ],
+    "cache_age_minutes": 4.5,
+    "error": "sina_market: <HTTPError 456: ''> | eastmoney_market: RemoteDisconnected('Remote end closed connection without response')"
   },
   "sector": {
     "status": "ok",
-    "provider": "local_sector_engine",
-    "mapping_provider": "sina_corp_profile+local_cache",
-    "updated_at": "2026-09-10 19:58:44",
+    "provider": "industry_dictionary_engine",
+    "updated_at": "2026-09-10 20:04:36",
     "mapped_strong_count": 1,
     "unresolved_strong_count": 29,
     "confidence": "low",
@@ -1550,7 +1554,7 @@
         "member_names": [
           "太极实业"
         ],
-        "sector_score": 63.7
+        "sector_score": 65.7
       }
     ],
     "mainlines": [],
@@ -1561,7 +1565,7 @@
         "name": "太极实业",
         "change_pct": 10.02,
         "industry": "半导体/电子制造",
-        "sector_score": 63.7,
+        "sector_score": 65.7,
         "sector_avg_change": 10.02,
         "relative_strength": 0.0,
         "relative_status": "同步"
@@ -1788,7 +1792,7 @@
       }
     ],
     "mainline_groups": [],
-    "data_quality": "fresh",
+    "data_quality": "cached",
     "hard_rules": [
       "冰点环境候选仅观察，不因涨停追入",
       "退潮期不接后排",
@@ -1797,7 +1801,7 @@
       "盈利不代表过程正确"
     ],
     "mainline_confidence": "low",
-    "mainline_note": "主线来自强势股行业聚合；不依赖东方财富板块接口"
+    "mainline_note": "主线来自行业字典+强势股聚合，不依赖单一板块接口"
   },
   "github_bridge": {
     "state": "idle"
