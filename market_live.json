@@ -1,6 +1,6 @@
 {
-  "version": "0.6.1",
-  "updated_at": "2026-09-10 18:22:19",
+  "version": "0.7",
+  "updated_at": "2026-09-10 18:33:32",
   "status": "running",
   "core_provider": "tencent",
   "indices": [
@@ -11,7 +11,13 @@
       "price": 3934.4,
       "prev_close": 3951.51,
       "open": 3939.09,
-      "change_pct": -0.433,
+      "high": 3949.25,
+      "low": 3927.35,
+      "change_pct": -0.43,
+      "volume_lots": 484675114.0,
+      "turnover_amount_yuan": 779672690000.0,
+      "turnover_rate_pct": 1.0,
+      "volume_ratio": -1.0,
       "provider": "tencent"
     },
     {
@@ -21,7 +27,13 @@
       "price": 13617.67,
       "prev_close": 13723.32,
       "open": 13641.18,
-      "change_pct": -0.7699,
+      "high": 13713.87,
+      "low": 13585.6,
+      "change_pct": -0.77,
+      "volume_lots": 559023425.0,
+      "turnover_amount_yuan": 867475140000.0,
+      "turnover_rate_pct": 2.27,
+      "volume_ratio": -1.0,
       "provider": "tencent"
     },
     {
@@ -31,10 +43,17 @@
       "price": 3338.42,
       "prev_close": 3354.97,
       "open": 3324.33,
-      "change_pct": -0.4933,
+      "high": 3368.73,
+      "low": 3308.71,
+      "change_pct": -0.49,
+      "volume_lots": 142181720.0,
+      "turnover_amount_yuan": 380056430000.0,
+      "turnover_rate_pct": 2.62,
+      "volume_ratio": -1.0,
       "provider": "tencent"
     }
   ],
+  "index_turnover_amount_yuan_est": 1647147830000.0,
   "watchlist": [
     {
       "code": "600667",
@@ -43,7 +62,13 @@
       "price": 19.98,
       "prev_close": 18.16,
       "open": 18.27,
-      "change_pct": 10.022,
+      "high": 19.98,
+      "low": 18.27,
+      "change_pct": 10.02,
+      "volume_lots": 1908704.0,
+      "turnover_amount_yuan": 3743780000.0,
+      "turnover_rate_pct": 9.13,
+      "volume_ratio": 19.98,
       "provider": "tencent"
     },
     {
@@ -53,7 +78,13 @@
       "price": 7.13,
       "prev_close": 7.63,
       "open": 7.5,
-      "change_pct": -6.5531,
+      "high": 7.53,
+      "low": 7.08,
+      "change_pct": -6.55,
+      "volume_lots": 4024126.0,
+      "turnover_amount_yuan": 2906060000.0,
+      "turnover_rate_pct": 15.98,
+      "volume_ratio": 8.39,
       "provider": "tencent"
     },
     {
@@ -63,7 +94,13 @@
       "price": 19.01,
       "prev_close": 19.09,
       "open": 19.04,
-      "change_pct": -0.4191,
+      "high": 19.15,
+      "low": 18.84,
+      "change_pct": -0.42,
+      "volume_lots": 1097394.0,
+      "turnover_amount_yuan": 2083250000.0,
+      "turnover_rate_pct": 0.63,
+      "volume_ratio": 21.0,
       "provider": "tencent"
     },
     {
@@ -73,7 +110,13 @@
       "price": 16.77,
       "prev_close": 16.97,
       "open": 16.97,
-      "change_pct": -1.1786,
+      "high": 16.97,
+      "low": 16.64,
+      "change_pct": -1.18,
+      "volume_lots": 50575.0,
+      "turnover_amount_yuan": 84630000.0,
+      "turnover_rate_pct": 3.69,
+      "volume_ratio": 18.67,
       "provider": "tencent"
     },
     {
@@ -83,7 +126,13 @@
       "price": 15.94,
       "prev_close": 16.4,
       "open": 16.31,
-      "change_pct": -2.8049,
+      "high": 16.31,
+      "low": 15.89,
+      "change_pct": -2.8,
+      "volume_lots": 71292.0,
+      "turnover_amount_yuan": 114540000.0,
+      "turnover_rate_pct": 0.86,
+      "volume_ratio": 18.04,
       "provider": "tencent"
     },
     {
@@ -93,7 +142,13 @@
       "price": 34.11,
       "prev_close": 34.4,
       "open": 34.08,
-      "change_pct": -0.843,
+      "high": 34.39,
+      "low": 33.97,
+      "change_pct": -0.84,
+      "volume_lots": 998200.0,
+      "turnover_amount_yuan": 3407050000.0,
+      "turnover_rate_pct": 0.48,
+      "volume_ratio": 37.84,
       "provider": "tencent"
     },
     {
@@ -103,7 +158,13 @@
       "price": 40.0,
       "prev_close": 40.41,
       "open": 40.0,
-      "change_pct": -1.0146,
+      "high": 40.95,
+      "low": 39.33,
+      "change_pct": -1.01,
+      "volume_lots": 35040.0,
+      "turnover_amount_yuan": 140950000.0,
+      "turnover_rate_pct": 4.75,
+      "volume_ratio": 44.45,
       "provider": "tencent"
     },
     {
@@ -113,7 +174,13 @@
       "price": 32.82,
       "prev_close": 33.69,
       "open": 33.33,
-      "change_pct": -2.5824,
+      "high": 33.33,
+      "low": 32.7,
+      "change_pct": -2.58,
+      "volume_lots": 543350.0,
+      "turnover_amount_yuan": 1791320000.0,
+      "turnover_rate_pct": 5.03,
+      "volume_ratio": 37.06,
       "provider": "tencent"
     },
     {
@@ -123,7 +190,13 @@
       "price": 39.99,
       "prev_close": 42.3,
       "open": 41.0,
-      "change_pct": -5.461,
+      "high": 42.5,
+      "low": 39.69,
+      "change_pct": -5.46,
+      "volume_lots": 603900.0,
+      "turnover_amount_yuan": 2460450000.0,
+      "turnover_rate_pct": 16.08,
+      "volume_ratio": 50.76,
       "provider": "tencent"
     },
     {
@@ -133,7 +206,13 @@
       "price": 29.5,
       "prev_close": 30.06,
       "open": 29.7,
-      "change_pct": -1.8629,
+      "high": 29.74,
+      "low": 29.25,
+      "change_pct": -1.86,
+      "volume_lots": 222299.0,
+      "turnover_amount_yuan": 655570000.0,
+      "turnover_rate_pct": 2.83,
+      "volume_ratio": 33.07,
       "provider": "tencent"
     },
     {
@@ -143,7 +222,13 @@
       "price": 46.79,
       "prev_close": 46.42,
       "open": 46.36,
-      "change_pct": 0.7971,
+      "high": 48.16,
+      "low": 45.23,
+      "change_pct": 0.8,
+      "volume_lots": 713301.0,
+      "turnover_amount_yuan": 3355160000.0,
+      "turnover_rate_pct": 8.43,
+      "volume_ratio": 51.06,
       "provider": "tencent"
     },
     {
@@ -153,15 +238,486 @@
       "price": 15.36,
       "prev_close": 16.93,
       "open": 16.66,
-      "change_pct": -9.2735,
+      "high": 17.05,
+      "low": 15.29,
+      "change_pct": -9.27,
+      "volume_lots": 2349504.0,
+      "turnover_amount_yuan": 3785730000.0,
+      "turnover_rate_pct": 18.29,
+      "volume_ratio": 18.62,
       "provider": "tencent"
     }
   ],
+  "market": {
+    "provider": "sina_market",
+    "updated_at": "2026-09-10 18:33:31",
+    "sample_count": 5560,
+    "up": 955,
+    "down": 4511,
+    "flat": 94,
+    "limit_up_count_est": 44,
+    "limit_down_count_est": 22,
+    "market_turnover_amount_yuan": 1661968218164.0,
+    "strong_stocks_top30": [
+      {
+        "code": "301689",
+        "name": "N电科思",
+        "price": 54.0,
+        "change_pct": 237.5,
+        "turnover_rate_pct": 80.84414,
+        "turnover_amount_yuan": 2524557529.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "920268",
+        "name": "百迈科",
+        "price": 34.94,
+        "change_pct": 29.985,
+        "turnover_rate_pct": 57.09834,
+        "turnover_amount_yuan": 261700745.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "300290",
+        "name": "ST荣科",
+        "price": 7.3,
+        "change_pct": 18.314,
+        "turnover_rate_pct": 10.85386,
+        "turnover_amount_yuan": 480994052.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "301176",
+        "name": "逸豪新材",
+        "price": 56.49,
+        "change_pct": 15.286,
+        "turnover_rate_pct": 12.3766,
+        "turnover_amount_yuan": 1098130621.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "300010",
+        "name": "ST豆神",
+        "price": 5.57,
+        "change_pct": 11.623,
+        "turnover_rate_pct": 10.19475,
+        "turnover_amount_yuan": 876547712.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600491",
+        "name": "ST龙元",
+        "price": 1.73,
+        "change_pct": 10.191,
+        "turnover_rate_pct": 5.73177,
+        "turnover_amount_yuan": 149034201.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "002377",
+        "name": "国创高新",
+        "price": 3.47,
+        "change_pct": 10.159,
+        "turnover_rate_pct": 7.03338,
+        "turnover_amount_yuan": 212451270.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "002204",
+        "name": "大连重工",
+        "price": 5.89,
+        "change_pct": 10.093,
+        "turnover_rate_pct": 4.51335,
+        "turnover_amount_yuan": 497354239.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600488",
+        "name": "津药药业",
+        "price": 5.9,
+        "change_pct": 10.075,
+        "turnover_rate_pct": 17.34732,
+        "turnover_amount_yuan": 1110881580.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600318",
+        "name": "新力金融",
+        "price": 8.09,
+        "change_pct": 10.068,
+        "turnover_rate_pct": 22.45969,
+        "turnover_amount_yuan": 920574923.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600744",
+        "name": "华银电力",
+        "price": 7.0,
+        "change_pct": 10.063,
+        "turnover_rate_pct": 9.69494,
+        "turnover_amount_yuan": 1336745382.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "603601",
+        "name": "再升科技",
+        "price": 9.96,
+        "change_pct": 10.055,
+        "turnover_rate_pct": 17.70268,
+        "turnover_amount_yuan": 1965507854.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "001299",
+        "name": "美能能源",
+        "price": 11.83,
+        "change_pct": 10.047,
+        "turnover_rate_pct": 13.92946,
+        "turnover_amount_yuan": 455520987.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600359",
+        "name": "新农开发",
+        "price": 9.64,
+        "change_pct": 10.046,
+        "turnover_rate_pct": 10.48496,
+        "turnover_amount_yuan": 385379643.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "002514",
+        "name": "*ST宝馨",
+        "price": 2.41,
+        "change_pct": 10.046,
+        "turnover_rate_pct": 7.36541,
+        "turnover_amount_yuan": 93573529.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "002201",
+        "name": "九鼎新材",
+        "price": 10.08,
+        "change_pct": 10.044,
+        "turnover_rate_pct": 9.85496,
+        "turnover_amount_yuan": 589175795.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "002531",
+        "name": "天顺风能",
+        "price": 6.91,
+        "change_pct": 10.032,
+        "turnover_rate_pct": 4.1136,
+        "turnover_amount_yuan": 486529238.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "002543",
+        "name": "万和电气",
+        "price": 7.9,
+        "change_pct": 10.028,
+        "turnover_rate_pct": 5.14328,
+        "turnover_amount_yuan": 264650634.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "000993",
+        "name": "闽东电力",
+        "price": 12.62,
+        "change_pct": 10.026,
+        "turnover_rate_pct": 12.11882,
+        "turnover_amount_yuan": 678574299.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600667",
+        "name": "太极实业",
+        "price": 19.98,
+        "change_pct": 10.022,
+        "turnover_rate_pct": 9.12582,
+        "turnover_amount_yuan": 3743778504.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600876",
+        "name": "凯盛新能",
+        "price": 7.91,
+        "change_pct": 10.014,
+        "turnover_rate_pct": 2.13264,
+        "turnover_amount_yuan": 65438160.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "000565",
+        "name": "渝三峡Ａ",
+        "price": 7.91,
+        "change_pct": 10.014,
+        "turnover_rate_pct": 7.46568,
+        "turnover_amount_yuan": 238039702.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600192",
+        "name": "长城电工",
+        "price": 8.68,
+        "change_pct": 10.013,
+        "turnover_rate_pct": 11.04486,
+        "turnover_amount_yuan": 420774926.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "002790",
+        "name": "瑞尔特",
+        "price": 8.46,
+        "change_pct": 10.013,
+        "turnover_rate_pct": 2.97974,
+        "turnover_amount_yuan": 65718092.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "601231",
+        "name": "环旭电子",
+        "price": 27.92,
+        "change_pct": 10.008,
+        "turnover_rate_pct": 1.58826,
+        "turnover_amount_yuan": 1025159548.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "603316",
+        "name": "诚邦股份",
+        "price": 15.72,
+        "change_pct": 10.007,
+        "turnover_rate_pct": 7.11051,
+        "turnover_amount_yuan": 287249280.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "000048",
+        "name": "京基智农",
+        "price": 23.2,
+        "change_pct": 10.005,
+        "turnover_rate_pct": 5.38505,
+        "turnover_amount_yuan": 624024576.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600644",
+        "name": "乐山电力",
+        "price": 10.12,
+        "change_pct": 10.0,
+        "turnover_rate_pct": 13.55982,
+        "turnover_amount_yuan": 763723518.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "000532",
+        "name": "华金资本",
+        "price": 12.43,
+        "change_pct": 10.0,
+        "turnover_rate_pct": 3.63041,
+        "turnover_amount_yuan": 148934013.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "000722",
+        "name": "湖南发展",
+        "price": 14.74,
+        "change_pct": 10.0,
+        "turnover_rate_pct": 6.87978,
+        "turnover_amount_yuan": 455220145.0,
+        "provider": "sina_market"
+      }
+    ],
+    "weak_stocks_top20": [
+      {
+        "code": "688496",
+        "name": "*ST清越",
+        "price": 0.58,
+        "change_pct": -20.548,
+        "turnover_rate_pct": 4.7953,
+        "turnover_amount_yuan": 6617918.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "300328",
+        "name": "宜安科技",
+        "price": 12.46,
+        "change_pct": -14.305,
+        "turnover_rate_pct": 10.27578,
+        "turnover_amount_yuan": 901186301.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "300382",
+        "name": "斯莱克",
+        "price": 15.58,
+        "change_pct": -14.207,
+        "turnover_rate_pct": 7.83069,
+        "turnover_amount_yuan": 837586927.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "301575",
+        "name": "艾芬达",
+        "price": 21.92,
+        "change_pct": -13.428,
+        "turnover_rate_pct": 18.05032,
+        "turnover_amount_yuan": 288839072.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "920371",
+        "name": "欧福蛋业",
+        "price": 8.31,
+        "change_pct": -12.526,
+        "turnover_rate_pct": 9.15316,
+        "turnover_amount_yuan": 155401991.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "920786",
+        "name": "骑士乳业",
+        "price": 8.12,
+        "change_pct": -11.739,
+        "turnover_rate_pct": 14.75416,
+        "turnover_amount_yuan": 175588341.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "300461",
+        "name": "田中精机",
+        "price": 30.2,
+        "change_pct": -11.098,
+        "turnover_rate_pct": 7.83553,
+        "turnover_amount_yuan": 351624094.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "300313",
+        "name": "天山生物",
+        "price": 13.4,
+        "change_pct": -10.607,
+        "turnover_rate_pct": 16.21052,
+        "turnover_amount_yuan": 441524290.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "000017",
+        "name": "深中华A",
+        "price": 8.33,
+        "change_pct": -10.043,
+        "turnover_rate_pct": 10.81504,
+        "turnover_amount_yuan": 415450410.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "603042",
+        "name": "华脉科技",
+        "price": 16.8,
+        "change_pct": -10.016,
+        "turnover_rate_pct": 27.44055,
+        "turnover_amount_yuan": 988691053.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "000911",
+        "name": "*ST广糖",
+        "price": 6.47,
+        "change_pct": -10.014,
+        "turnover_rate_pct": 7.20679,
+        "turnover_amount_yuan": 192877829.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "603090",
+        "name": "宏盛股份",
+        "price": 36.88,
+        "change_pct": -10.005,
+        "turnover_rate_pct": 8.76943,
+        "turnover_amount_yuan": 332229520.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600737",
+        "name": "中粮糖业",
+        "price": 17.82,
+        "change_pct": -10.0,
+        "turnover_rate_pct": 9.27787,
+        "turnover_amount_yuan": 3681396245.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "000020",
+        "name": "深华发Ａ",
+        "price": 13.41,
+        "change_pct": -10.0,
+        "turnover_rate_pct": 8.44002,
+        "turnover_amount_yuan": 209328147.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "000912",
+        "name": "泸天化",
+        "price": 4.68,
+        "change_pct": -10.0,
+        "turnover_rate_pct": 12.18199,
+        "turnover_amount_yuan": 928044454.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "003040",
+        "name": "楚天龙",
+        "price": 18.9,
+        "change_pct": -10.0,
+        "turnover_rate_pct": 15.54677,
+        "turnover_amount_yuan": 1352889899.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "603191",
+        "name": "望变电气",
+        "price": 14.41,
+        "change_pct": -9.994,
+        "turnover_rate_pct": 6.82811,
+        "turnover_amount_yuan": 338805503.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600479",
+        "name": "千金药业",
+        "price": 12.71,
+        "change_pct": -9.986,
+        "turnover_rate_pct": 20.49013,
+        "turnover_amount_yuan": 1125638798.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "002365",
+        "name": "永安药业",
+        "price": 13.98,
+        "change_pct": -9.981,
+        "turnover_rate_pct": 19.65085,
+        "turnover_amount_yuan": 687992383.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "002855",
+        "name": "捷荣技术",
+        "price": 14.99,
+        "change_pct": -9.97,
+        "turnover_rate_pct": 9.08247,
+        "turnover_amount_yuan": 338206006.0,
+        "provider": "sina_market"
+      }
+    ],
+    "status": "ok"
+  },
+  "boards_top10": [],
+  "boards_status": "unavailable",
   "github_bridge": {
-    "state": "synced",
-    "repository": "yao37049193-cloud/astock-bridge",
-    "file": "market_live.json",
-    "synced_at": "2026-09-10 18:21:18"
+    "state": "waiting"
   },
   "last_error": null
 }
