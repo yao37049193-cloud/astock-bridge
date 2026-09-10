@@ -1,6 +1,6 @@
 {
-  "version": "0.6.1",
-  "updated_at": "2026-09-10 18:20:07",
+  "version": "0.6.2",
+  "updated_at": "2026-09-10 18:20:10",
   "status": "running",
   "core_provider": "tencent",
   "indices": [
@@ -158,10 +158,8 @@
     }
   ],
   "github_bridge": {
-    "state": "synced",
-    "repository": "yao37049193-cloud/astock-bridge",
-    "file": "market_live.json",
-    "synced_at": "2026-09-10 18:19:06"
+    "state": "waiting"
   },
-  "last_error": null
+  "last_error": null,
+  "cloud_synced_at": "2026-09-10 18:20:13"
 }
