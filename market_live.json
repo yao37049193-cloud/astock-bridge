@@ -1,6 +1,6 @@
 {
   "version": "0.8",
-  "updated_at": "2026-09-10 18:49:04",
+  "updated_at": "2026-09-10 18:54:13",
   "status": "running",
   "core_provider": "tencent",
   "indices": [
@@ -249,7 +249,7 @@
   ],
   "market": {
     "provider": "sina_market",
-    "updated_at": "2026-09-10 18:43:43",
+    "updated_at": "2026-09-10 18:54:13",
     "status": "ok",
     "sample_count": 5560,
     "up": 955,
@@ -2185,9 +2185,9 @@
   "boards_top10": [],
   "boards_status": "unavailable",
   "github_bridge": {
-    "state": "sync_failed",
+    "state": "synced",
     "repository": "yao37049193-cloud/astock-bridge",
-    "message": "RuntimeError(\"Cloning into 'D:\\\\A股复盘数据\\\\AStockRealtimeCenter_v0.8\\\\github_bridge_repo'...\\nfatal: unable to access 'https://github.com/yao37049193-cloud/astock-bridge.git/': Recv failure: Connection was reset\")"
+    "synced_at": "2026-09-10 18:49:10"
   },
   "last_error": null
 }
