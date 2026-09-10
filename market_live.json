@@ -1,6 +1,6 @@
 {
-  "version": "0.9",
-  "updated_at": "2026-09-10 19:01:21",
+  "version": "1.0",
+  "updated_at": "2026-09-10 19:10:29",
   "status": "running",
   "core_provider": "tencent",
   "indices": [
@@ -256,7 +256,9 @@
     "action": "等待全市场数据"
   },
   "github_bridge": {
-    "state": "idle"
+    "state": "queued_retry",
+    "repository": "yao37049193-cloud/astock-bridge",
+    "message": "RuntimeError(\"Cloning into 'D:\\\\A股复盘数据\\\\AStockRealtimeCenter_v1.0\\\\github_bridge_repo'...\\nfatal: unable to access 'https://github.com/yao37049193-cloud/astock-bridge.git/': Failed to connect to github.com port 443 after 21133 ms: Could not connect to server\")"
   },
   "last_error": null
 }
