@@ -1,6 +1,6 @@
 {
   "version": "0.6.1",
-  "updated_at": "2026-09-10 18:16:15",
+  "updated_at": "2026-09-10 18:17:40",
   "status": "running",
   "core_provider": "tencent",
   "indices": [
@@ -158,9 +158,10 @@
     }
   ],
   "github_bridge": {
-    "state": "sync_failed",
+    "state": "synced",
     "repository": "yao37049193-cloud/astock-bridge",
-    "message": "RuntimeError(\"fatal: unable to access 'https://github.com/yao37049193-cloud/astock-bridge.git/': Failed to connect to github.com port 443 after 21079 ms: Could not connect to server\")"
+    "file": "market_live.json",
+    "synced_at": "2026-09-10 18:16:39"
   },
   "last_error": null
 }
