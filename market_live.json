@@ -1,0 +1,164 @@
+{
+  "version": "0.6.1",
+  "updated_at": "2026-09-10 18:03:27",
+  "status": "running",
+  "core_provider": "tencent",
+  "indices": [
+    {
+      "code": "000001",
+      "name": "上证指数",
+      "group": "index",
+      "price": 3934.4,
+      "prev_close": 3951.51,
+      "open": 3939.09,
+      "change_pct": -0.433,
+      "provider": "tencent"
+    },
+    {
+      "code": "399001",
+      "name": "深证成指",
+      "group": "index",
+      "price": 13617.67,
+      "prev_close": 13723.32,
+      "open": 13641.18,
+      "change_pct": -0.7699,
+      "provider": "tencent"
+    },
+    {
+      "code": "399006",
+      "name": "创业板指",
+      "group": "index",
+      "price": 3338.42,
+      "prev_close": 3354.97,
+      "open": 3324.33,
+      "change_pct": -0.4933,
+      "provider": "tencent"
+    }
+  ],
+  "watchlist": [
+    {
+      "code": "600667",
+      "name": "太极实业",
+      "group": "holding",
+      "price": 19.98,
+      "prev_close": 18.16,
+      "open": 18.27,
+      "change_pct": 10.022,
+      "provider": "tencent"
+    },
+    {
+      "code": "600664",
+      "name": "哈药股份",
+      "group": "holding",
+      "price": 7.13,
+      "prev_close": 7.63,
+      "open": 7.5,
+      "change_pct": -6.5531,
+      "provider": "tencent"
+    },
+    {
+      "code": "603993",
+      "name": "洛阳钼业",
+      "group": "holding",
+      "price": 19.01,
+      "prev_close": 19.09,
+      "open": 19.04,
+      "change_pct": -0.4191,
+      "provider": "tencent"
+    },
+    {
+      "code": "002879",
+      "name": "长缆科技",
+      "group": "watch",
+      "price": 16.77,
+      "prev_close": 16.97,
+      "open": 16.97,
+      "change_pct": -1.1786,
+      "provider": "tencent"
+    },
+    {
+      "code": "002534",
+      "name": "西子洁能",
+      "group": "watch",
+      "price": 15.94,
+      "prev_close": 16.4,
+      "open": 16.31,
+      "change_pct": -2.8049,
+      "provider": "tencent"
+    },
+    {
+      "code": "601899",
+      "name": "紫金矿业",
+      "group": "watch",
+      "price": 34.11,
+      "prev_close": 34.4,
+      "open": 34.08,
+      "change_pct": -0.843,
+      "provider": "tencent"
+    },
+    {
+      "code": "001229",
+      "name": "魅视科技",
+      "group": "watch",
+      "price": 40.0,
+      "prev_close": 40.41,
+      "open": 40.0,
+      "change_pct": -1.0146,
+      "provider": "tencent"
+    },
+    {
+      "code": "002407",
+      "name": "多氟多",
+      "group": "watch",
+      "price": 32.82,
+      "prev_close": 33.69,
+      "open": 33.33,
+      "change_pct": -2.5824,
+      "provider": "tencent"
+    },
+    {
+      "code": "300179",
+      "name": "四方达",
+      "group": "watch",
+      "price": 39.99,
+      "prev_close": 42.3,
+      "open": 41.0,
+      "change_pct": -5.461,
+      "provider": "tencent"
+    },
+    {
+      "code": "002747",
+      "name": "埃斯顿",
+      "group": "watch",
+      "price": 29.5,
+      "prev_close": 30.06,
+      "open": 29.7,
+      "change_pct": -1.8629,
+      "provider": "tencent"
+    },
+    {
+      "code": "600206",
+      "name": "有研新材",
+      "group": "watch",
+      "price": 46.79,
+      "prev_close": 46.42,
+      "open": 46.36,
+      "change_pct": 0.7971,
+      "provider": "tencent"
+    },
+    {
+      "code": "600172",
+      "name": "黄河旋风",
+      "group": "watch",
+      "price": 15.36,
+      "prev_close": 16.93,
+      "open": 16.66,
+      "change_pct": -9.2735,
+      "provider": "tencent"
+    }
+  ],
+  "github_bridge": {
+    "state": "waiting"
+  },
+  "last_error": null
+}
