@@ -1,6 +1,6 @@
 {
-  "version": "1.3",
-  "updated_at": "2026-09-10 19:40:09",
+  "version": "1.4",
+  "updated_at": "2026-09-10 19:53:25",
   "status": "running",
   "core_provider": "tencent",
   "indices": [
@@ -248,10 +248,10 @@
     }
   ],
   "market": {
-    "status": "ok",
+    "status": "cached",
     "provider": "sina_market",
-    "updated_at": "2026-09-10 19:35:08",
-    "stale": false,
+    "updated_at": "2026-09-10 19:45:34",
+    "stale": true,
     "sample_count": 5560,
     "user_tradable_sample": 4413,
     "up": 955,
@@ -1514,7 +1514,21 @@
     ],
     "sentiment_score": 18.2,
     "sentiment_label": "冰点/强退潮",
-    "source_attempt_errors": []
+    "source_attempt_errors": [
+      "sina_market: <HTTPError 456: ''>",
+      "eastmoney_market: RemoteDisconnected('Remote end closed connection without response')"
+    ],
+    "cache_age_minutes": 2.8,
+    "error": "sina_market: <HTTPError 456: ''> | eastmoney_market: RemoteDisconnected('Remote end closed connection without response')"
+  },
+  "sector": {
+    "status": "fallback",
+    "provider": "none",
+    "updated_at": "2026-09-10 19:48:24",
+    "mainlines": [],
+    "leader_candidates": [],
+    "holding_relative_strength": [],
+    "error": "RemoteDisconnected('Remote end closed connection without response')"
   },
   "decision": {
     "status": "ok",
@@ -1703,17 +1717,21 @@
         "note": "当前未接稳定板块分类源，仅作为强势资金集群，不等同真实题材主线"
       }
     ],
-    "data_quality": "fresh",
+    "data_quality": "cached",
     "hard_rules": [
       "冰点环境候选仅观察，不因涨停追入",
       "退潮期不接后排",
       "高潮日不追后排",
       "新短线一手不补仓",
       "盈利不代表过程正确"
-    ]
+    ],
+    "mainline_confidence": "low",
+    "mainline_note": "板块数据不可用，维持仅按市场/个股评分"
   },
   "github_bridge": {
-    "state": "idle"
+    "state": "queued_retry",
+    "repository": "yao37049193-cloud/astock-bridge",
+    "message": "TimeoutExpired(['git', 'pull', '--rebase', 'origin', 'main'], 45)"
   },
   "last_error": null
 }
