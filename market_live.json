@@ -1,6 +1,6 @@
 {
-  "version": "1.6",
-  "updated_at": "2026-09-10 20:04:36",
+  "version": "1.7",
+  "updated_at": "2026-09-10 20:12:51",
   "status": "running",
   "core_provider": "tencent",
   "indices": [
@@ -8,6 +8,7 @@
       "code": "000001",
       "name": "上证指数",
       "group": "index",
+      "tags": [],
       "price": 3934.4,
       "prev_close": 3951.51,
       "open": 3939.09,
@@ -24,6 +25,7 @@
       "code": "399001",
       "name": "深证成指",
       "group": "index",
+      "tags": [],
       "price": 13617.67,
       "prev_close": 13723.32,
       "open": 13641.18,
@@ -40,6 +42,7 @@
       "code": "399006",
       "name": "创业板指",
       "group": "index",
+      "tags": [],
       "price": 3338.42,
       "prev_close": 3354.97,
       "open": 3324.33,
@@ -58,6 +61,10 @@
       "code": "600667",
       "name": "太极实业",
       "group": "holding",
+      "tags": [
+        "半导体",
+        "封测/电子制造"
+      ],
       "price": 19.98,
       "prev_close": 18.16,
       "open": 18.27,
@@ -74,6 +81,9 @@
       "code": "600664",
       "name": "哈药股份",
       "group": "holding",
+      "tags": [
+        "医药"
+      ],
       "price": 7.13,
       "prev_close": 7.63,
       "open": 7.5,
@@ -90,6 +100,10 @@
       "code": "603993",
       "name": "洛阳钼业",
       "group": "holding",
+      "tags": [
+        "有色金属",
+        "铜钴资源"
+      ],
       "price": 19.01,
       "prev_close": 19.09,
       "open": 19.04,
@@ -106,6 +120,10 @@
       "code": "002879",
       "name": "长缆科技",
       "group": "watch",
+      "tags": [
+        "电力设备",
+        "电缆附件"
+      ],
       "price": 16.77,
       "prev_close": 16.97,
       "open": 16.97,
@@ -122,6 +140,10 @@
       "code": "002534",
       "name": "西子洁能",
       "group": "watch",
+      "tags": [
+        "电力设备",
+        "节能环保"
+      ],
       "price": 15.94,
       "prev_close": 16.4,
       "open": 16.31,
@@ -138,6 +160,10 @@
       "code": "601899",
       "name": "紫金矿业",
       "group": "watch",
+      "tags": [
+        "有色金属",
+        "黄金/铜"
+      ],
       "price": 34.11,
       "prev_close": 34.4,
       "open": 34.08,
@@ -154,6 +180,10 @@
       "code": "001229",
       "name": "魅视科技",
       "group": "watch",
+      "tags": [
+        "电子设备",
+        "视听/显示"
+      ],
       "price": 40.0,
       "prev_close": 40.41,
       "open": 40.0,
@@ -170,6 +200,10 @@
       "code": "002407",
       "name": "多氟多",
       "group": "watch",
+      "tags": [
+        "化工",
+        "锂电材料"
+      ],
       "price": 32.82,
       "prev_close": 33.69,
       "open": 33.33,
@@ -186,6 +220,10 @@
       "code": "300179",
       "name": "四方达",
       "group": "watch",
+      "tags": [
+        "新材料",
+        "超硬材料"
+      ],
       "price": 39.99,
       "prev_close": 42.3,
       "open": 41.0,
@@ -202,6 +240,10 @@
       "code": "002747",
       "name": "埃斯顿",
       "group": "watch",
+      "tags": [
+        "机器人",
+        "自动化"
+      ],
       "price": 29.5,
       "prev_close": 30.06,
       "open": 29.7,
@@ -218,6 +260,10 @@
       "code": "600206",
       "name": "有研新材",
       "group": "watch",
+      "tags": [
+        "新材料",
+        "电子材料"
+      ],
       "price": 46.79,
       "prev_close": 46.42,
       "open": 46.36,
@@ -234,6 +280,10 @@
       "code": "600172",
       "name": "黄河旋风",
       "group": "watch",
+      "tags": [
+        "新材料",
+        "超硬材料"
+      ],
       "price": 15.36,
       "prev_close": 16.93,
       "open": 16.66,
@@ -248,10 +298,10 @@
     }
   ],
   "market": {
-    "status": "cached",
+    "status": "ok",
     "provider": "sina_market",
-    "updated_at": "2026-09-10 19:58:35",
-    "stale": true,
+    "updated_at": "2026-09-10 20:12:51",
+    "stale": false,
     "sample_count": 5560,
     "user_tradable_sample": 4413,
     "up": 955,
@@ -958,6 +1008,558 @@
         "provider": "sina_market"
       }
     ],
+    "strong_stocks_top50": [
+      {
+        "code": "301176",
+        "name": "逸豪新材",
+        "price": 56.49,
+        "change_pct": 15.286,
+        "turnover_rate_pct": 12.3766,
+        "turnover_amount_yuan": 1098130621.0,
+        "board": "GEM",
+        "limit_pct": 20.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "002377",
+        "name": "国创高新",
+        "price": 3.47,
+        "change_pct": 10.159,
+        "turnover_rate_pct": 7.03338,
+        "turnover_amount_yuan": 212451270.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "002204",
+        "name": "大连重工",
+        "price": 5.89,
+        "change_pct": 10.093,
+        "turnover_rate_pct": 4.51335,
+        "turnover_amount_yuan": 497354239.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600488",
+        "name": "津药药业",
+        "price": 5.9,
+        "change_pct": 10.075,
+        "turnover_rate_pct": 17.34732,
+        "turnover_amount_yuan": 1110881580.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600318",
+        "name": "新力金融",
+        "price": 8.09,
+        "change_pct": 10.068,
+        "turnover_rate_pct": 22.45969,
+        "turnover_amount_yuan": 920574923.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600744",
+        "name": "华银电力",
+        "price": 7.0,
+        "change_pct": 10.063,
+        "turnover_rate_pct": 9.69494,
+        "turnover_amount_yuan": 1336745382.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "603601",
+        "name": "再升科技",
+        "price": 9.96,
+        "change_pct": 10.055,
+        "turnover_rate_pct": 17.70268,
+        "turnover_amount_yuan": 1965507854.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "001299",
+        "name": "美能能源",
+        "price": 11.83,
+        "change_pct": 10.047,
+        "turnover_rate_pct": 13.92946,
+        "turnover_amount_yuan": 455520987.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600359",
+        "name": "新农开发",
+        "price": 9.64,
+        "change_pct": 10.046,
+        "turnover_rate_pct": 10.48496,
+        "turnover_amount_yuan": 385379643.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "002201",
+        "name": "九鼎新材",
+        "price": 10.08,
+        "change_pct": 10.044,
+        "turnover_rate_pct": 9.85496,
+        "turnover_amount_yuan": 589175795.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "002531",
+        "name": "天顺风能",
+        "price": 6.91,
+        "change_pct": 10.032,
+        "turnover_rate_pct": 4.1136,
+        "turnover_amount_yuan": 486529238.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "002543",
+        "name": "万和电气",
+        "price": 7.9,
+        "change_pct": 10.028,
+        "turnover_rate_pct": 5.14328,
+        "turnover_amount_yuan": 264650634.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "000993",
+        "name": "闽东电力",
+        "price": 12.62,
+        "change_pct": 10.026,
+        "turnover_rate_pct": 12.11882,
+        "turnover_amount_yuan": 678574299.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600667",
+        "name": "太极实业",
+        "price": 19.98,
+        "change_pct": 10.022,
+        "turnover_rate_pct": 9.12582,
+        "turnover_amount_yuan": 3743778504.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600876",
+        "name": "凯盛新能",
+        "price": 7.91,
+        "change_pct": 10.014,
+        "turnover_rate_pct": 2.13264,
+        "turnover_amount_yuan": 65438160.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "000565",
+        "name": "渝三峡Ａ",
+        "price": 7.91,
+        "change_pct": 10.014,
+        "turnover_rate_pct": 7.46568,
+        "turnover_amount_yuan": 238039702.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600192",
+        "name": "长城电工",
+        "price": 8.68,
+        "change_pct": 10.013,
+        "turnover_rate_pct": 11.04486,
+        "turnover_amount_yuan": 420774926.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "002790",
+        "name": "瑞尔特",
+        "price": 8.46,
+        "change_pct": 10.013,
+        "turnover_rate_pct": 2.97974,
+        "turnover_amount_yuan": 65718092.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "601231",
+        "name": "环旭电子",
+        "price": 27.92,
+        "change_pct": 10.008,
+        "turnover_rate_pct": 1.58826,
+        "turnover_amount_yuan": 1025159548.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "603316",
+        "name": "诚邦股份",
+        "price": 15.72,
+        "change_pct": 10.007,
+        "turnover_rate_pct": 7.11051,
+        "turnover_amount_yuan": 287249280.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "000048",
+        "name": "京基智农",
+        "price": 23.2,
+        "change_pct": 10.005,
+        "turnover_rate_pct": 5.38505,
+        "turnover_amount_yuan": 624024576.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600644",
+        "name": "乐山电力",
+        "price": 10.12,
+        "change_pct": 10.0,
+        "turnover_rate_pct": 13.55982,
+        "turnover_amount_yuan": 763723518.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "000532",
+        "name": "华金资本",
+        "price": 12.43,
+        "change_pct": 10.0,
+        "turnover_rate_pct": 3.63041,
+        "turnover_amount_yuan": 148934013.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "000722",
+        "name": "湖南发展",
+        "price": 14.74,
+        "change_pct": 10.0,
+        "turnover_rate_pct": 6.87978,
+        "turnover_amount_yuan": 455220145.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "000823",
+        "name": "超声电子",
+        "price": 18.7,
+        "change_pct": 10.0,
+        "turnover_rate_pct": 25.93146,
+        "turnover_amount_yuan": 2769778931.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "002174",
+        "name": "游族网络",
+        "price": 13.64,
+        "change_pct": 10.0,
+        "turnover_rate_pct": 9.97201,
+        "turnover_amount_yuan": 1298613681.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "002636",
+        "name": "金安国纪",
+        "price": 76.45,
+        "change_pct": 10.0,
+        "turnover_rate_pct": 8.95833,
+        "turnover_amount_yuan": 4791046362.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "603318",
+        "name": "水发燃气",
+        "price": 10.35,
+        "change_pct": 9.989,
+        "turnover_rate_pct": 23.95769,
+        "turnover_amount_yuan": 1116347670.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "000978",
+        "name": "桂林旅游",
+        "price": 9.69,
+        "change_pct": 9.989,
+        "turnover_rate_pct": 17.26918,
+        "turnover_amount_yuan": 771858388.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "002912",
+        "name": "中新赛克",
+        "price": 21.37,
+        "change_pct": 9.985,
+        "turnover_rate_pct": 7.10489,
+        "turnover_amount_yuan": 243382977.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600712",
+        "name": "南宁百货",
+        "price": 6.83,
+        "change_pct": 9.984,
+        "turnover_rate_pct": 13.23949,
+        "turnover_amount_yuan": 464736346.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "603105",
+        "name": "芯能科技",
+        "price": 8.38,
+        "change_pct": 9.974,
+        "turnover_rate_pct": 6.19113,
+        "turnover_amount_yuan": 256112593.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "002661",
+        "name": "克明食品",
+        "price": 9.6,
+        "change_pct": 9.966,
+        "turnover_rate_pct": 13.39164,
+        "turnover_amount_yuan": 388581063.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600792",
+        "name": "云煤能源",
+        "price": 5.41,
+        "change_pct": 9.959,
+        "turnover_rate_pct": 14.17031,
+        "turnover_amount_yuan": 833949008.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "603421",
+        "name": "鼎信通讯",
+        "price": 7.29,
+        "change_pct": 9.955,
+        "turnover_rate_pct": 7.02673,
+        "turnover_amount_yuan": 326814901.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "300852",
+        "name": "四会富仕",
+        "price": 63.62,
+        "change_pct": 9.69,
+        "turnover_rate_pct": 13.8628,
+        "turnover_amount_yuan": 1374945000.0,
+        "board": "GEM",
+        "limit_pct": 20.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "301297",
+        "name": "富乐德",
+        "price": 44.35,
+        "change_pct": 8.968,
+        "turnover_rate_pct": 6.6458,
+        "turnover_amount_yuan": 1511666739.0,
+        "board": "GEM",
+        "limit_pct": 20.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "300806",
+        "name": "斯迪克",
+        "price": 53.59,
+        "change_pct": 8.702,
+        "turnover_rate_pct": 11.16189,
+        "turnover_amount_yuan": 2691348689.0,
+        "board": "GEM",
+        "limit_pct": 20.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "300739",
+        "name": "明阳电路",
+        "price": 26.93,
+        "change_pct": 8.676,
+        "turnover_rate_pct": 11.40931,
+        "turnover_amount_yuan": 910853611.0,
+        "board": "GEM",
+        "limit_pct": 20.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "301178",
+        "name": "天亿马",
+        "price": 36.77,
+        "change_pct": 8.626,
+        "turnover_rate_pct": 7.5702,
+        "turnover_amount_yuan": 187406072.0,
+        "board": "GEM",
+        "limit_pct": 20.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "605177",
+        "name": "东亚药业",
+        "price": 24.71,
+        "change_pct": 8.472,
+        "turnover_rate_pct": 12.12454,
+        "turnover_amount_yuan": 327029689.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "300040",
+        "name": "九洲集团",
+        "price": 6.29,
+        "change_pct": 8.076,
+        "turnover_rate_pct": 17.51522,
+        "turnover_amount_yuan": 557201440.0,
+        "board": "GEM",
+        "limit_pct": 20.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600812",
+        "name": "华北制药",
+        "price": 5.18,
+        "change_pct": 7.917,
+        "turnover_rate_pct": 6.57108,
+        "turnover_amount_yuan": 573472726.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "603083",
+        "name": "剑桥科技",
+        "price": 234.43,
+        "change_pct": 7.051,
+        "turnover_rate_pct": 11.76976,
+        "turnover_amount_yuan": 7387430360.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "300600",
+        "name": "国瑞科技",
+        "price": 11.59,
+        "change_pct": 6.919,
+        "turnover_rate_pct": 10.23122,
+        "turnover_amount_yuan": 343478461.0,
+        "board": "GEM",
+        "limit_pct": 20.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "600101",
+        "name": "明星电力",
+        "price": 8.49,
+        "change_pct": 6.792,
+        "turnover_rate_pct": 10.11421,
+        "turnover_amount_yuan": 460485521.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "301526",
+        "name": "国际复材",
+        "price": 29.42,
+        "change_pct": 6.788,
+        "turnover_rate_pct": 15.00633,
+        "turnover_amount_yuan": 6096799111.0,
+        "board": "GEM",
+        "limit_pct": 20.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "603657",
+        "name": "春光科技",
+        "price": 28.95,
+        "change_pct": 6.63,
+        "turnover_rate_pct": 5.0157,
+        "turnover_amount_yuan": 189439762.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "300850",
+        "name": "新强联",
+        "price": 28.19,
+        "change_pct": 6.418,
+        "turnover_rate_pct": 7.60513,
+        "turnover_amount_yuan": 647101623.0,
+        "board": "GEM",
+        "limit_pct": 20.0,
+        "provider": "sina_market"
+      },
+      {
+        "code": "002295",
+        "name": "精艺股份",
+        "price": 12.32,
+        "change_pct": 6.39,
+        "turnover_rate_pct": 24.96029,
+        "turnover_amount_yuan": 758536836.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market"
+      }
+    ],
     "strong_stocks_top30": [
       {
         "code": "301176",
@@ -1514,91 +2116,818 @@
     ],
     "sentiment_score": 18.2,
     "sentiment_label": "冰点/强退潮",
-    "source_attempt_errors": [
-      "sina_market: <HTTPError 456: ''>",
-      "eastmoney_market: RemoteDisconnected('Remote end closed connection without response')"
-    ],
-    "cache_age_minutes": 4.5,
-    "error": "sina_market: <HTTPError 456: ''> | eastmoney_market: RemoteDisconnected('Remote end closed connection without response')"
+    "source_attempt_errors": []
   },
-  "sector": {
+  "tag_layer": {
     "status": "ok",
-    "provider": "industry_dictionary_engine",
-    "updated_at": "2026-09-10 20:04:36",
-    "mapped_strong_count": 1,
-    "unresolved_strong_count": 29,
-    "confidence": "low",
-    "sectors": [
+    "provider": "local_tag_engine",
+    "updated_at": "2026-09-10 20:12:51",
+    "mainlines": [
       {
-        "industry": "半导体/电子制造",
+        "tag": "半导体",
         "members": [
           {
             "code": "600667",
             "name": "太极实业",
+            "group": "holding",
+            "tags": [
+              "半导体",
+              "封测/电子制造"
+            ],
             "price": 19.98,
-            "change_pct": 10.022,
-            "turnover_rate_pct": 9.12582,
-            "turnover_amount_yuan": 3743778504.0,
-            "board": "MAIN",
-            "limit_pct": 10.0,
-            "provider": "sina_market",
-            "rank_in_strong": 14
+            "prev_close": 18.16,
+            "open": 18.27,
+            "high": 19.98,
+            "low": 18.27,
+            "change_pct": 10.02,
+            "volume_lots": 1908704.0,
+            "turnover_amount_yuan": 3743780000.0,
+            "turnover_rate_pct": 9.13,
+            "volume_ratio": 19.98,
+            "provider": "tencent"
           }
         ],
+        "sum_ch": 10.02,
+        "amount": 3743780000.0,
         "count": 1,
-        "limit_like_count": 1,
-        "amount_yuan": 3743778504.0,
-        "sum_change": 10.022,
         "avg_change": 10.02,
         "amount_yi": 37.4,
+        "score": 75.5,
         "member_names": [
           "太极实业"
+        ]
+      },
+      {
+        "tag": "封测/电子制造",
+        "members": [
+          {
+            "code": "600667",
+            "name": "太极实业",
+            "group": "holding",
+            "tags": [
+              "半导体",
+              "封测/电子制造"
+            ],
+            "price": 19.98,
+            "prev_close": 18.16,
+            "open": 18.27,
+            "high": 19.98,
+            "low": 18.27,
+            "change_pct": 10.02,
+            "volume_lots": 1908704.0,
+            "turnover_amount_yuan": 3743780000.0,
+            "turnover_rate_pct": 9.13,
+            "volume_ratio": 19.98,
+            "provider": "tencent"
+          }
         ],
-        "sector_score": 65.7
+        "sum_ch": 10.02,
+        "amount": 3743780000.0,
+        "count": 1,
+        "avg_change": 10.02,
+        "amount_yi": 37.4,
+        "score": 75.5,
+        "member_names": [
+          "太极实业"
+        ]
+      },
+      {
+        "tag": "新材料",
+        "members": [
+          {
+            "code": "300179",
+            "name": "四方达",
+            "group": "watch",
+            "tags": [
+              "新材料",
+              "超硬材料"
+            ],
+            "price": 39.99,
+            "prev_close": 42.3,
+            "open": 41.0,
+            "high": 42.5,
+            "low": 39.69,
+            "change_pct": -5.46,
+            "volume_lots": 603900.0,
+            "turnover_amount_yuan": 2460450000.0,
+            "turnover_rate_pct": 16.08,
+            "volume_ratio": 50.76,
+            "provider": "tencent"
+          },
+          {
+            "code": "600206",
+            "name": "有研新材",
+            "group": "watch",
+            "tags": [
+              "新材料",
+              "电子材料"
+            ],
+            "price": 46.79,
+            "prev_close": 46.42,
+            "open": 46.36,
+            "high": 48.16,
+            "low": 45.23,
+            "change_pct": 0.8,
+            "volume_lots": 713301.0,
+            "turnover_amount_yuan": 3355160000.0,
+            "turnover_rate_pct": 8.43,
+            "volume_ratio": 51.06,
+            "provider": "tencent"
+          },
+          {
+            "code": "600172",
+            "name": "黄河旋风",
+            "group": "watch",
+            "tags": [
+              "新材料",
+              "超硬材料"
+            ],
+            "price": 15.36,
+            "prev_close": 16.93,
+            "open": 16.66,
+            "high": 17.05,
+            "low": 15.29,
+            "change_pct": -9.27,
+            "volume_lots": 2349504.0,
+            "turnover_amount_yuan": 3785730000.0,
+            "turnover_rate_pct": 18.29,
+            "volume_ratio": 18.62,
+            "provider": "tencent"
+          }
+        ],
+        "sum_ch": -13.93,
+        "amount": 9601340000.0,
+        "count": 3,
+        "avg_change": -4.64,
+        "amount_yi": 96.0,
+        "score": 68.2,
+        "member_names": [
+          "四方达",
+          "有研新材",
+          "黄河旋风"
+        ]
+      },
+      {
+        "tag": "有色金属",
+        "members": [
+          {
+            "code": "603993",
+            "name": "洛阳钼业",
+            "group": "holding",
+            "tags": [
+              "有色金属",
+              "铜钴资源"
+            ],
+            "price": 19.01,
+            "prev_close": 19.09,
+            "open": 19.04,
+            "high": 19.15,
+            "low": 18.84,
+            "change_pct": -0.42,
+            "volume_lots": 1097394.0,
+            "turnover_amount_yuan": 2083250000.0,
+            "turnover_rate_pct": 0.63,
+            "volume_ratio": 21.0,
+            "provider": "tencent"
+          },
+          {
+            "code": "601899",
+            "name": "紫金矿业",
+            "group": "watch",
+            "tags": [
+              "有色金属",
+              "黄金/铜"
+            ],
+            "price": 34.11,
+            "prev_close": 34.4,
+            "open": 34.08,
+            "high": 34.39,
+            "low": 33.97,
+            "change_pct": -0.84,
+            "volume_lots": 998200.0,
+            "turnover_amount_yuan": 3407050000.0,
+            "turnover_rate_pct": 0.48,
+            "volume_ratio": 37.84,
+            "provider": "tencent"
+          }
+        ],
+        "sum_ch": -1.26,
+        "amount": 5490300000.0,
+        "count": 2,
+        "avg_change": -0.63,
+        "amount_yi": 54.9,
+        "score": 60.1,
+        "member_names": [
+          "洛阳钼业",
+          "紫金矿业"
+        ]
+      },
+      {
+        "tag": "超硬材料",
+        "members": [
+          {
+            "code": "300179",
+            "name": "四方达",
+            "group": "watch",
+            "tags": [
+              "新材料",
+              "超硬材料"
+            ],
+            "price": 39.99,
+            "prev_close": 42.3,
+            "open": 41.0,
+            "high": 42.5,
+            "low": 39.69,
+            "change_pct": -5.46,
+            "volume_lots": 603900.0,
+            "turnover_amount_yuan": 2460450000.0,
+            "turnover_rate_pct": 16.08,
+            "volume_ratio": 50.76,
+            "provider": "tencent"
+          },
+          {
+            "code": "600172",
+            "name": "黄河旋风",
+            "group": "watch",
+            "tags": [
+              "新材料",
+              "超硬材料"
+            ],
+            "price": 15.36,
+            "prev_close": 16.93,
+            "open": 16.66,
+            "high": 17.05,
+            "low": 15.29,
+            "change_pct": -9.27,
+            "volume_lots": 2349504.0,
+            "turnover_amount_yuan": 3785730000.0,
+            "turnover_rate_pct": 18.29,
+            "volume_ratio": 18.62,
+            "provider": "tencent"
+          }
+        ],
+        "sum_ch": -14.73,
+        "amount": 6246180000.0,
+        "count": 2,
+        "avg_change": -7.37,
+        "amount_yi": 62.5,
+        "score": 53.5,
+        "member_names": [
+          "四方达",
+          "黄河旋风"
+        ]
+      },
+      {
+        "tag": "电子材料",
+        "members": [
+          {
+            "code": "600206",
+            "name": "有研新材",
+            "group": "watch",
+            "tags": [
+              "新材料",
+              "电子材料"
+            ],
+            "price": 46.79,
+            "prev_close": 46.42,
+            "open": 46.36,
+            "high": 48.16,
+            "low": 45.23,
+            "change_pct": 0.8,
+            "volume_lots": 713301.0,
+            "turnover_amount_yuan": 3355160000.0,
+            "turnover_rate_pct": 8.43,
+            "volume_ratio": 51.06,
+            "provider": "tencent"
+          }
+        ],
+        "sum_ch": 0.8,
+        "amount": 3355160000.0,
+        "count": 1,
+        "avg_change": 0.8,
+        "amount_yi": 33.6,
+        "score": 52.1,
+        "member_names": [
+          "有研新材"
+        ]
+      },
+      {
+        "tag": "黄金/铜",
+        "members": [
+          {
+            "code": "601899",
+            "name": "紫金矿业",
+            "group": "watch",
+            "tags": [
+              "有色金属",
+              "黄金/铜"
+            ],
+            "price": 34.11,
+            "prev_close": 34.4,
+            "open": 34.08,
+            "high": 34.39,
+            "low": 33.97,
+            "change_pct": -0.84,
+            "volume_lots": 998200.0,
+            "turnover_amount_yuan": 3407050000.0,
+            "turnover_rate_pct": 0.48,
+            "volume_ratio": 37.84,
+            "provider": "tencent"
+          }
+        ],
+        "sum_ch": -0.84,
+        "amount": 3407050000.0,
+        "count": 1,
+        "avg_change": -0.84,
+        "amount_yi": 34.1,
+        "score": 47.3,
+        "member_names": [
+          "紫金矿业"
+        ]
+      },
+      {
+        "tag": "铜钴资源",
+        "members": [
+          {
+            "code": "603993",
+            "name": "洛阳钼业",
+            "group": "holding",
+            "tags": [
+              "有色金属",
+              "铜钴资源"
+            ],
+            "price": 19.01,
+            "prev_close": 19.09,
+            "open": 19.04,
+            "high": 19.15,
+            "low": 18.84,
+            "change_pct": -0.42,
+            "volume_lots": 1097394.0,
+            "turnover_amount_yuan": 2083250000.0,
+            "turnover_rate_pct": 0.63,
+            "volume_ratio": 21.0,
+            "provider": "tencent"
+          }
+        ],
+        "sum_ch": -0.42,
+        "amount": 2083250000.0,
+        "count": 1,
+        "avg_change": -0.42,
+        "amount_yi": 20.8,
+        "score": 45.9,
+        "member_names": [
+          "洛阳钼业"
+        ]
+      },
+      {
+        "tag": "电力设备",
+        "members": [
+          {
+            "code": "002879",
+            "name": "长缆科技",
+            "group": "watch",
+            "tags": [
+              "电力设备",
+              "电缆附件"
+            ],
+            "price": 16.77,
+            "prev_close": 16.97,
+            "open": 16.97,
+            "high": 16.97,
+            "low": 16.64,
+            "change_pct": -1.18,
+            "volume_lots": 50575.0,
+            "turnover_amount_yuan": 84630000.0,
+            "turnover_rate_pct": 3.69,
+            "volume_ratio": 18.67,
+            "provider": "tencent"
+          },
+          {
+            "code": "002534",
+            "name": "西子洁能",
+            "group": "watch",
+            "tags": [
+              "电力设备",
+              "节能环保"
+            ],
+            "price": 15.94,
+            "prev_close": 16.4,
+            "open": 16.31,
+            "high": 16.31,
+            "low": 15.89,
+            "change_pct": -2.8,
+            "volume_lots": 71292.0,
+            "turnover_amount_yuan": 114540000.0,
+            "turnover_rate_pct": 0.86,
+            "volume_ratio": 18.04,
+            "provider": "tencent"
+          }
+        ],
+        "sum_ch": -3.9799999999999995,
+        "amount": 199170000.0,
+        "count": 2,
+        "avg_change": -1.99,
+        "amount_yi": 2.0,
+        "score": 45.4,
+        "member_names": [
+          "长缆科技",
+          "西子洁能"
+        ]
+      },
+      {
+        "tag": "电子设备",
+        "members": [
+          {
+            "code": "001229",
+            "name": "魅视科技",
+            "group": "watch",
+            "tags": [
+              "电子设备",
+              "视听/显示"
+            ],
+            "price": 40.0,
+            "prev_close": 40.41,
+            "open": 40.0,
+            "high": 40.95,
+            "low": 39.33,
+            "change_pct": -1.01,
+            "volume_lots": 35040.0,
+            "turnover_amount_yuan": 140950000.0,
+            "turnover_rate_pct": 4.75,
+            "volume_ratio": 44.45,
+            "provider": "tencent"
+          }
+        ],
+        "sum_ch": -1.01,
+        "amount": 140950000.0,
+        "count": 1,
+        "avg_change": -1.01,
+        "amount_yi": 1.4,
+        "score": 40.2,
+        "member_names": [
+          "魅视科技"
+        ]
       }
     ],
-    "mainlines": [],
-    "leader_candidates": [],
-    "holding_relative_strength": [
+    "coverage_note": "题材标签目前精准覆盖持仓/自选；市场全体强势股不强行猜题材"
+  },
+  "decision": {
+    "status": "ok",
+    "trade_grade": "D",
+    "market_environment": "冰点/强退潮",
+    "action": "环境否决：原则上不开新仓",
+    "one_lot_rule": "新短线仅一手，不加仓；退出条件触发时整手卖出",
+    "priority_watch": [
+      {
+        "code": "600206",
+        "name": "有研新材",
+        "group": "watch",
+        "tags": [
+          "新材料",
+          "电子材料"
+        ],
+        "price": 46.79,
+        "prev_close": 46.42,
+        "open": 46.36,
+        "high": 48.16,
+        "low": 45.23,
+        "change_pct": 0.8,
+        "volume_lots": 713301.0,
+        "turnover_amount_yuan": 3355160000.0,
+        "turnover_rate_pct": 8.43,
+        "volume_ratio": 51.06,
+        "provider": "tencent",
+        "decision_score": 48.0,
+        "setup": "不参与",
+        "gap_pct": -0.1293,
+        "from_open_pct": 0.9275,
+        "m5": null,
+        "m15": null,
+        "m30": null,
+        "risk_tags": [
+          "环境否决"
+        ],
+        "action_hint": "仅观察"
+      },
+      {
+        "code": "600667",
+        "name": "太极实业",
+        "group": "holding",
+        "tags": [
+          "半导体",
+          "封测/电子制造"
+        ],
+        "price": 19.98,
+        "prev_close": 18.16,
+        "open": 18.27,
+        "high": 19.98,
+        "low": 18.27,
+        "change_pct": 10.02,
+        "volume_lots": 1908704.0,
+        "turnover_amount_yuan": 3743780000.0,
+        "turnover_rate_pct": 9.13,
+        "volume_ratio": 19.98,
+        "provider": "tencent",
+        "decision_score": 46.5,
+        "setup": "冰点逆势观察",
+        "gap_pct": 0.6057,
+        "from_open_pct": 9.3596,
+        "m5": null,
+        "m15": null,
+        "m30": null,
+        "risk_tags": [
+          "环境否决",
+          "涨停次日不可机械追"
+        ],
+        "action_hint": "仅观察"
+      },
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "group": "holding",
+        "tags": [
+          "医药"
+        ],
+        "price": 7.13,
+        "prev_close": 7.63,
+        "open": 7.5,
+        "high": 7.53,
+        "low": 7.08,
+        "change_pct": -6.55,
+        "volume_lots": 4024126.0,
+        "turnover_amount_yuan": 2906060000.0,
+        "turnover_rate_pct": 15.98,
+        "volume_ratio": 8.39,
+        "provider": "tencent",
+        "decision_score": 42.0,
+        "setup": "不参与",
+        "gap_pct": -1.7038,
+        "from_open_pct": -4.9333,
+        "m5": null,
+        "m15": null,
+        "m30": null,
+        "risk_tags": [
+          "环境否决"
+        ],
+        "action_hint": "仅观察"
+      },
+      {
+        "code": "300179",
+        "name": "四方达",
+        "group": "watch",
+        "tags": [
+          "新材料",
+          "超硬材料"
+        ],
+        "price": 39.99,
+        "prev_close": 42.3,
+        "open": 41.0,
+        "high": 42.5,
+        "low": 39.69,
+        "change_pct": -5.46,
+        "volume_lots": 603900.0,
+        "turnover_amount_yuan": 2460450000.0,
+        "turnover_rate_pct": 16.08,
+        "volume_ratio": 50.76,
+        "provider": "tencent",
+        "decision_score": 40.3,
+        "setup": "不参与",
+        "gap_pct": -3.0733,
+        "from_open_pct": -2.4634,
+        "m5": null,
+        "m15": null,
+        "m30": null,
+        "risk_tags": [
+          "环境否决"
+        ],
+        "action_hint": "仅观察"
+      },
+      {
+        "code": "600172",
+        "name": "黄河旋风",
+        "group": "watch",
+        "tags": [
+          "新材料",
+          "超硬材料"
+        ],
+        "price": 15.36,
+        "prev_close": 16.93,
+        "open": 16.66,
+        "high": 17.05,
+        "low": 15.29,
+        "change_pct": -9.27,
+        "volume_lots": 2349504.0,
+        "turnover_amount_yuan": 3785730000.0,
+        "turnover_rate_pct": 18.29,
+        "volume_ratio": 18.62,
+        "provider": "tencent",
+        "decision_score": 40.2,
+        "setup": "不参与",
+        "gap_pct": -1.5948,
+        "from_open_pct": -7.8031,
+        "m5": null,
+        "m15": null,
+        "m30": null,
+        "risk_tags": [
+          "环境否决"
+        ],
+        "action_hint": "仅观察"
+      },
+      {
+        "code": "601899",
+        "name": "紫金矿业",
+        "group": "watch",
+        "tags": [
+          "有色金属",
+          "黄金/铜"
+        ],
+        "price": 34.11,
+        "prev_close": 34.4,
+        "open": 34.08,
+        "high": 34.39,
+        "low": 33.97,
+        "change_pct": -0.84,
+        "volume_lots": 998200.0,
+        "turnover_amount_yuan": 3407050000.0,
+        "turnover_rate_pct": 0.48,
+        "volume_ratio": 37.84,
+        "provider": "tencent",
+        "decision_score": 39.9,
+        "setup": "不参与",
+        "gap_pct": -0.9302,
+        "from_open_pct": 0.088,
+        "m5": null,
+        "m15": null,
+        "m30": null,
+        "risk_tags": [
+          "环境否决"
+        ],
+        "action_hint": "仅观察"
+      },
+      {
+        "code": "603993",
+        "name": "洛阳钼业",
+        "group": "holding",
+        "tags": [
+          "有色金属",
+          "铜钴资源"
+        ],
+        "price": 19.01,
+        "prev_close": 19.09,
+        "open": 19.04,
+        "high": 19.15,
+        "low": 18.84,
+        "change_pct": -0.42,
+        "volume_lots": 1097394.0,
+        "turnover_amount_yuan": 2083250000.0,
+        "turnover_rate_pct": 0.63,
+        "volume_ratio": 21.0,
+        "provider": "tencent",
+        "decision_score": 38.3,
+        "setup": "不参与",
+        "gap_pct": -0.2619,
+        "from_open_pct": -0.1576,
+        "m5": null,
+        "m15": null,
+        "m30": null,
+        "risk_tags": [
+          "环境否决"
+        ],
+        "action_hint": "仅观察"
+      },
+      {
+        "code": "002407",
+        "name": "多氟多",
+        "group": "watch",
+        "tags": [
+          "化工",
+          "锂电材料"
+        ],
+        "price": 32.82,
+        "prev_close": 33.69,
+        "open": 33.33,
+        "high": 33.33,
+        "low": 32.7,
+        "change_pct": -2.58,
+        "volume_lots": 543350.0,
+        "turnover_amount_yuan": 1791320000.0,
+        "turnover_rate_pct": 5.03,
+        "volume_ratio": 37.06,
+        "provider": "tencent",
+        "decision_score": 35.0,
+        "setup": "不参与",
+        "gap_pct": -1.0686,
+        "from_open_pct": -1.5302,
+        "m5": null,
+        "m15": null,
+        "m30": null,
+        "risk_tags": [
+          "环境否决"
+        ],
+        "action_hint": "仅观察"
+      },
+      {
+        "code": "001229",
+        "name": "魅视科技",
+        "group": "watch",
+        "tags": [
+          "电子设备",
+          "视听/显示"
+        ],
+        "price": 40.0,
+        "prev_close": 40.41,
+        "open": 40.0,
+        "high": 40.95,
+        "low": 39.33,
+        "change_pct": -1.01,
+        "volume_lots": 35040.0,
+        "turnover_amount_yuan": 140950000.0,
+        "turnover_rate_pct": 4.75,
+        "volume_ratio": 44.45,
+        "provider": "tencent",
+        "decision_score": 31.8,
+        "setup": "不参与",
+        "gap_pct": -1.0146,
+        "from_open_pct": 0.0,
+        "m5": null,
+        "m15": null,
+        "m30": null,
+        "risk_tags": [
+          "环境否决"
+        ],
+        "action_hint": "仅观察"
+      },
+      {
+        "code": "002747",
+        "name": "埃斯顿",
+        "group": "watch",
+        "tags": [
+          "机器人",
+          "自动化"
+        ],
+        "price": 29.5,
+        "prev_close": 30.06,
+        "open": 29.7,
+        "high": 29.74,
+        "low": 29.25,
+        "change_pct": -1.86,
+        "volume_lots": 222299.0,
+        "turnover_amount_yuan": 655570000.0,
+        "turnover_rate_pct": 2.83,
+        "volume_ratio": 33.07,
+        "provider": "tencent",
+        "decision_score": 30.8,
+        "setup": "不参与",
+        "gap_pct": -1.1976,
+        "from_open_pct": -0.6734,
+        "m5": null,
+        "m15": null,
+        "m30": null,
+        "risk_tags": [
+          "环境否决"
+        ],
+        "action_hint": "仅观察"
+      }
+    ],
+    "holding_alerts": [
       {
         "code": "600667",
         "name": "太极实业",
         "change_pct": 10.02,
-        "industry": "半导体/电子制造",
-        "sector_score": 65.7,
-        "sector_avg_change": 10.02,
-        "relative_strength": 0.0,
-        "relative_status": "同步"
+        "level": "强势",
+        "setup": "冰点逆势观察",
+        "momentum": {
+          "m5": null,
+          "m15": null,
+          "m30": null
+        }
       },
       {
         "code": "600664",
         "name": "哈药股份",
         "change_pct": -6.55,
-        "industry": "医药制造",
-        "sector_score": null,
-        "sector_avg_change": null,
-        "relative_strength": -6.55,
-        "relative_status": "弱于同行"
+        "level": "高风险",
+        "setup": "不参与",
+        "momentum": {
+          "m5": null,
+          "m15": null,
+          "m30": null
+        }
       },
       {
         "code": "603993",
         "name": "洛阳钼业",
         "change_pct": -0.42,
-        "industry": "有色金属/矿业",
-        "sector_score": null,
-        "sector_avg_change": null,
-        "relative_strength": -0.42,
-        "relative_status": "同步"
+        "level": "正常",
+        "setup": "不参与",
+        "momentum": {
+          "m5": null,
+          "m15": null,
+          "m30": null
+        }
       }
-    ]
-  },
-  "decision": {
-    "status": "ok",
-    "market_environment": "冰点/强退潮",
-    "trade_grade": "D",
-    "action": "原则上不开新仓；候选仅用于观察，不允许因涨停/大涨追入",
-    "one_lot_rule": "新短线仅一手，不加仓；退出条件触发时整手卖出",
-    "candidate_pool": [
+    ],
+    "market_strong_watch": [
       {
         "code": "000823",
         "name": "超声电子",
@@ -1609,58 +2938,11 @@
         "board": "MAIN",
         "limit_pct": 10.0,
         "provider": "sina_market",
-        "candidate_score": 37.0,
-        "stock_tag": "核心强势",
-        "reason": "量价强、换手有效、流动性足",
+        "decision_score": 52.2,
+        "action_hint": "全市场观察，不直接下单",
         "risk_tags": [
-          "弱市追涨风险"
-        ],
-        "action_hint": "环境否决：仅观察",
-        "industry": null,
-        "sector_score": null,
-        "board_role": "未识别"
-      },
-      {
-        "code": "600667",
-        "name": "太极实业",
-        "price": 19.98,
-        "change_pct": 10.022,
-        "turnover_rate_pct": 9.12582,
-        "turnover_amount_yuan": 3743778504.0,
-        "board": "MAIN",
-        "limit_pct": 10.0,
-        "provider": "sina_market",
-        "candidate_score": 33.3,
-        "stock_tag": "核心强势",
-        "reason": "量价强、换手有效、流动性足",
-        "risk_tags": [
-          "弱市追涨风险"
-        ],
-        "action_hint": "环境否决：仅观察",
-        "industry": "半导体/电子制造",
-        "sector_score": null,
-        "board_role": "未识别"
-      },
-      {
-        "code": "603601",
-        "name": "再升科技",
-        "price": 9.96,
-        "change_pct": 10.055,
-        "turnover_rate_pct": 17.70268,
-        "turnover_amount_yuan": 1965507854.0,
-        "board": "MAIN",
-        "limit_pct": 10.0,
-        "provider": "sina_market",
-        "candidate_score": 30.8,
-        "stock_tag": "核心强势",
-        "reason": "量价强、换手有效、流动性足",
-        "risk_tags": [
-          "弱市追涨风险"
-        ],
-        "action_hint": "环境否决：仅观察",
-        "industry": null,
-        "sector_score": null,
-        "board_role": "未识别"
+          "题材/地位未确认"
+        ]
       },
       {
         "code": "002636",
@@ -1672,16 +2954,27 @@
         "board": "MAIN",
         "limit_pct": 10.0,
         "provider": "sina_market",
-        "candidate_score": 27.1,
-        "stock_tag": "核心强势",
-        "reason": "量价强、换手有效、流动性足",
+        "decision_score": 48.4,
+        "action_hint": "全市场观察，不直接下单",
         "risk_tags": [
-          "弱市追涨风险"
-        ],
-        "action_hint": "环境否决：仅观察",
-        "industry": null,
-        "sector_score": null,
-        "board_role": "未识别"
+          "题材/地位未确认"
+        ]
+      },
+      {
+        "code": "301176",
+        "name": "逸豪新材",
+        "price": 56.49,
+        "change_pct": 15.286,
+        "turnover_rate_pct": 12.3766,
+        "turnover_amount_yuan": 1098130621.0,
+        "board": "GEM",
+        "limit_pct": 20.0,
+        "provider": "sina_market",
+        "decision_score": 47.5,
+        "action_hint": "全市场观察，不直接下单",
+        "risk_tags": [
+          "题材/地位未确认"
+        ]
       },
       {
         "code": "603318",
@@ -1693,16 +2986,43 @@
         "board": "MAIN",
         "limit_pct": 10.0,
         "provider": "sina_market",
-        "candidate_score": 26.8,
-        "stock_tag": "核心强势",
-        "reason": "量价强、换手有效、流动性足",
+        "decision_score": 46.1,
+        "action_hint": "全市场观察，不直接下单",
         "risk_tags": [
-          "弱市追涨风险"
-        ],
-        "action_hint": "环境否决：仅观察",
-        "industry": null,
-        "sector_score": null,
-        "board_role": "未识别"
+          "题材/地位未确认"
+        ]
+      },
+      {
+        "code": "600667",
+        "name": "太极实业",
+        "price": 19.98,
+        "change_pct": 10.022,
+        "turnover_rate_pct": 9.12582,
+        "turnover_amount_yuan": 3743778504.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market",
+        "decision_score": 46.0,
+        "action_hint": "全市场观察，不直接下单",
+        "risk_tags": [
+          "题材/地位未确认"
+        ]
+      },
+      {
+        "code": "603601",
+        "name": "再升科技",
+        "price": 9.96,
+        "change_pct": 10.055,
+        "turnover_rate_pct": 17.70268,
+        "turnover_amount_yuan": 1965507854.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market",
+        "decision_score": 45.3,
+        "action_hint": "全市场观察，不直接下单",
+        "risk_tags": [
+          "题材/地位未确认"
+        ]
       },
       {
         "code": "600318",
@@ -1714,16 +3034,11 @@
         "board": "MAIN",
         "limit_pct": 10.0,
         "provider": "sina_market",
-        "candidate_score": 25.6,
-        "stock_tag": "核心强势",
-        "reason": "量价强、换手有效、流动性足",
+        "decision_score": 44.7,
+        "action_hint": "全市场观察，不直接下单",
         "risk_tags": [
-          "弱市追涨风险"
-        ],
-        "action_hint": "环境否决：仅观察",
-        "industry": null,
-        "sector_score": null,
-        "board_role": "未识别"
+          "题材/地位未确认"
+        ]
       },
       {
         "code": "600488",
@@ -1735,16 +3050,11 @@
         "board": "MAIN",
         "limit_pct": 10.0,
         "provider": "sina_market",
-        "candidate_score": 24.5,
-        "stock_tag": "核心强势",
-        "reason": "量价强、换手有效、流动性足",
+        "decision_score": 42.2,
+        "action_hint": "全市场观察，不直接下单",
         "risk_tags": [
-          "弱市追涨风险"
-        ],
-        "action_hint": "环境否决：仅观察",
-        "industry": null,
-        "sector_score": null,
-        "board_role": "未识别"
+          "题材/地位未确认"
+        ]
       },
       {
         "code": "000978",
@@ -1756,55 +3066,203 @@
         "board": "MAIN",
         "limit_pct": 10.0,
         "provider": "sina_market",
-        "candidate_score": 21.9,
-        "stock_tag": "核心强势",
-        "reason": "量价强、换手有效、流动性足",
+        "decision_score": 40.9,
+        "action_hint": "全市场观察，不直接下单",
         "risk_tags": [
-          "弱市追涨风险"
-        ],
-        "action_hint": "环境否决：仅观察",
-        "industry": null,
-        "sector_score": null,
-        "board_role": "未识别"
+          "题材/地位未确认"
+        ]
+      },
+      {
+        "code": "600644",
+        "name": "乐山电力",
+        "price": 10.12,
+        "change_pct": 10.0,
+        "turnover_rate_pct": 13.55982,
+        "turnover_amount_yuan": 763723518.0,
+        "board": "MAIN",
+        "limit_pct": 10.0,
+        "provider": "sina_market",
+        "decision_score": 38.7,
+        "action_hint": "全市场观察，不直接下单",
+        "risk_tags": [
+          "题材/地位未确认"
+        ]
       }
     ],
-    "holding_alerts": [
+    "hard_gate": "BLOCK_NEW_ENTRY",
+    "hard_rules": [
+      "冰点环境不追涨停",
+      "退潮期不接后排",
+      "新短线一手不补仓",
+      "没有明确失效条件不下单",
+      "盈利不等于过程正确"
+    ]
+  },
+  "github_bridge": {
+    "state": "synced",
+    "repository": "yao37049193-cloud/astock-bridge",
+    "synced_at": "2026-09-10 20:12:03"
+  },
+  "last_error": null,
+  "tomorrow_plan": {
+    "generated_at": "2026-09-10 20:12:51",
+    "for_next_trading_day": "next_trading_day",
+    "market_grade": "D",
+    "market_environment": "冰点/强退潮",
+    "hard_gate": "BLOCK_NEW_ENTRY",
+    "plan": [
+      {
+        "code": "600206",
+        "name": "有研新材",
+        "group": "watch",
+        "score": 48.0,
+        "setup": "不参与",
+        "today_change_pct": 0.8,
+        "trigger_price_ref": 48.16,
+        "invalid_price_ref": 45.23,
+        "tags": [
+          "新材料",
+          "电子材料"
+        ],
+        "notes": [
+          "突破今日高点仅作为观察触发",
+          "跌破今日低点视为短线结构失效参考",
+          "市场D级：明日先看修复，不因触发价直接买"
+        ]
+      },
       {
         "code": "600667",
         "name": "太极实业",
-        "change_pct": 10.02,
-        "level": "强势",
-        "note": "涨停强势≠次日可追"
+        "group": "holding",
+        "score": 46.5,
+        "setup": "冰点逆势观察",
+        "today_change_pct": 10.02,
+        "trigger_price_ref": 19.98,
+        "invalid_price_ref": 18.27,
+        "tags": [
+          "半导体",
+          "封测/电子制造"
+        ],
+        "notes": [
+          "突破今日高点仅作为观察触发",
+          "跌破今日低点视为短线结构失效参考",
+          "市场D级：明日先看修复，不因触发价直接买"
+        ]
       },
       {
         "code": "600664",
         "name": "哈药股份",
-        "change_pct": -6.55,
-        "level": "高风险",
-        "note": "跌幅较大，先看次日承接"
+        "group": "holding",
+        "score": 42.0,
+        "setup": "不参与",
+        "today_change_pct": -6.55,
+        "trigger_price_ref": 7.53,
+        "invalid_price_ref": 7.08,
+        "tags": [
+          "医药"
+        ],
+        "notes": [
+          "突破今日高点仅作为观察触发",
+          "跌破今日低点视为短线结构失效参考",
+          "市场D级：明日先看修复，不因触发价直接买"
+        ]
+      },
+      {
+        "code": "300179",
+        "name": "四方达",
+        "group": "watch",
+        "score": 40.3,
+        "setup": "不参与",
+        "today_change_pct": -5.46,
+        "trigger_price_ref": 42.5,
+        "invalid_price_ref": 39.69,
+        "tags": [
+          "新材料",
+          "超硬材料"
+        ],
+        "notes": [
+          "突破今日高点仅作为观察触发",
+          "跌破今日低点视为短线结构失效参考",
+          "市场D级：明日先看修复，不因触发价直接买"
+        ]
+      },
+      {
+        "code": "600172",
+        "name": "黄河旋风",
+        "group": "watch",
+        "score": 40.2,
+        "setup": "不参与",
+        "today_change_pct": -9.27,
+        "trigger_price_ref": 17.05,
+        "invalid_price_ref": 15.29,
+        "tags": [
+          "新材料",
+          "超硬材料"
+        ],
+        "notes": [
+          "突破今日高点仅作为观察触发",
+          "跌破今日低点视为短线结构失效参考",
+          "市场D级：明日先看修复，不因触发价直接买"
+        ]
+      },
+      {
+        "code": "601899",
+        "name": "紫金矿业",
+        "group": "watch",
+        "score": 39.9,
+        "setup": "不参与",
+        "today_change_pct": -0.84,
+        "trigger_price_ref": 34.39,
+        "invalid_price_ref": 33.97,
+        "tags": [
+          "有色金属",
+          "黄金/铜"
+        ],
+        "notes": [
+          "突破今日高点仅作为观察触发",
+          "跌破今日低点视为短线结构失效参考",
+          "市场D级：明日先看修复，不因触发价直接买"
+        ]
       },
       {
         "code": "603993",
         "name": "洛阳钼业",
-        "change_pct": -0.42,
-        "level": "正常",
-        "note": ""
+        "group": "holding",
+        "score": 38.3,
+        "setup": "不参与",
+        "today_change_pct": -0.42,
+        "trigger_price_ref": 19.15,
+        "invalid_price_ref": 18.84,
+        "tags": [
+          "有色金属",
+          "铜钴资源"
+        ],
+        "notes": [
+          "突破今日高点仅作为观察触发",
+          "跌破今日低点视为短线结构失效参考",
+          "市场D级：明日先看修复，不因触发价直接买"
+        ]
+      },
+      {
+        "code": "002407",
+        "name": "多氟多",
+        "group": "watch",
+        "score": 35.0,
+        "setup": "不参与",
+        "today_change_pct": -2.58,
+        "trigger_price_ref": 33.33,
+        "invalid_price_ref": 32.7,
+        "tags": [
+          "化工",
+          "锂电材料"
+        ],
+        "notes": [
+          "突破今日高点仅作为观察触发",
+          "跌破今日低点视为短线结构失效参考",
+          "市场D级：明日先看修复，不因触发价直接买"
+        ]
       }
     ],
-    "mainline_groups": [],
-    "data_quality": "cached",
-    "hard_rules": [
-      "冰点环境候选仅观察，不因涨停追入",
-      "退潮期不接后排",
-      "高潮日不追后排",
-      "新短线一手不补仓",
-      "盈利不代表过程正确"
-    ],
-    "mainline_confidence": "low",
-    "mainline_note": "主线来自行业字典+强势股聚合，不依赖单一板块接口"
-  },
-  "github_bridge": {
-    "state": "idle"
-  },
-  "last_error": null
+    "disclaimer": "触发价仅用于观察，不是自动买入建议；次日必须结合竞价、开盘承接、市场情绪重新判断"
+  }
 }
