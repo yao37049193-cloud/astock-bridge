@@ -1,6 +1,6 @@
 {
   "version": "0.6.1",
-  "updated_at": "2026-09-10 18:12:25",
+  "updated_at": "2026-09-10 18:16:15",
   "status": "running",
   "core_provider": "tencent",
   "indices": [
@@ -160,7 +160,7 @@
   "github_bridge": {
     "state": "sync_failed",
     "repository": "yao37049193-cloud/astock-bridge",
-    "message": "Git command timeout: Command '['git', 'push', 'origin', 'main']' timed out after 120 seconds"
+    "message": "RuntimeError(\"fatal: unable to access 'https://github.com/yao37049193-cloud/astock-bridge.git/': Failed to connect to github.com port 443 after 21079 ms: Could not connect to server\")"
   },
   "last_error": null
 }
