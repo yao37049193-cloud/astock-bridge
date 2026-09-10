@@ -1,6 +1,6 @@
 {
   "version": "0.6.1",
-  "updated_at": "2026-09-10 18:03:27",
+  "updated_at": "2026-09-10 18:12:25",
   "status": "running",
   "core_provider": "tencent",
   "indices": [
@@ -158,7 +158,9 @@
     }
   ],
   "github_bridge": {
-    "state": "waiting"
+    "state": "sync_failed",
+    "repository": "yao37049193-cloud/astock-bridge",
+    "message": "Git command timeout: Command '['git', 'push', 'origin', 'main']' timed out after 120 seconds"
   },
   "last_error": null
 }
