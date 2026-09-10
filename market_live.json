@@ -1,6 +1,6 @@
 {
-  "version": "1.0",
-  "updated_at": "2026-09-10 19:10:29",
+  "version": "1.1",
+  "updated_at": "2026-09-10 19:16:31",
   "status": "running",
   "core_provider": "tencent",
   "indices": [
@@ -248,17 +248,56 @@
     }
   ],
   "market": {
-    "status": "failed",
-    "error": "<HTTPError 456: ''>"
+    "status": "fallback",
+    "provider": "fallback",
+    "updated_at": "2026-09-10 19:16:31",
+    "stale": true,
+    "error": "<HTTPError 456: ''>",
+    "sample_count": null,
+    "user_tradable_sample": null,
+    "up": null,
+    "down": null,
+    "flat": null,
+    "market_turnover_amount_yuan": null,
+    "limit_up_count_est": null,
+    "limit_down_count_est": null,
+    "fried_board_count_est": null,
+    "strong_stocks_top30": [],
+    "weak_stocks_top20": [],
+    "sentiment_score": 40.0,
+    "sentiment_label": "数据不足/保守"
   },
   "decision": {
-    "status": "waiting",
-    "action": "等待全市场数据"
+    "status": "ok",
+    "market_environment": "数据不足/保守",
+    "trade_grade": "C-",
+    "action": "全市场数据不可用，禁止依据候选池开仓；仅观察持仓与指数",
+    "one_lot_rule": "新短线仅一手，不加仓；退出条件触发时整手卖出",
+    "candidate_pool": [],
+    "holding_alerts": [
+      {
+        "code": "600667",
+        "name": "太极实业",
+        "change_pct": 10.02,
+        "level": "强势"
+      },
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "change_pct": -6.55,
+        "level": "高风险"
+      },
+      {
+        "code": "603993",
+        "name": "洛阳钼业",
+        "change_pct": -0.42,
+        "level": "正常"
+      }
+    ],
+    "data_quality": "fallback"
   },
   "github_bridge": {
-    "state": "queued_retry",
-    "repository": "yao37049193-cloud/astock-bridge",
-    "message": "RuntimeError(\"Cloning into 'D:\\\\A股复盘数据\\\\AStockRealtimeCenter_v1.0\\\\github_bridge_repo'...\\nfatal: unable to access 'https://github.com/yao37049193-cloud/astock-bridge.git/': Failed to connect to github.com port 443 after 21133 ms: Could not connect to server\")"
+    "state": "idle"
   },
   "last_error": null
 }
