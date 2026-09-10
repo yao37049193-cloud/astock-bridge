@@ -1,6 +1,6 @@
 {
-  "version": "1.4",
-  "updated_at": "2026-09-10 19:53:25",
+  "version": "1.5",
+  "updated_at": "2026-09-10 19:58:44",
   "status": "running",
   "core_provider": "tencent",
   "indices": [
@@ -248,10 +248,10 @@
     }
   ],
   "market": {
-    "status": "cached",
+    "status": "ok",
     "provider": "sina_market",
-    "updated_at": "2026-09-10 19:45:34",
-    "stale": true,
+    "updated_at": "2026-09-10 19:58:35",
+    "stale": false,
     "sample_count": 5560,
     "user_tradable_sample": 4413,
     "up": 955,
@@ -1514,21 +1514,79 @@
     ],
     "sentiment_score": 18.2,
     "sentiment_label": "冰点/强退潮",
-    "source_attempt_errors": [
-      "sina_market: <HTTPError 456: ''>",
-      "eastmoney_market: RemoteDisconnected('Remote end closed connection without response')"
-    ],
-    "cache_age_minutes": 2.8,
-    "error": "sina_market: <HTTPError 456: ''> | eastmoney_market: RemoteDisconnected('Remote end closed connection without response')"
+    "source_attempt_errors": []
   },
   "sector": {
-    "status": "fallback",
-    "provider": "none",
-    "updated_at": "2026-09-10 19:48:24",
+    "status": "ok",
+    "provider": "local_sector_engine",
+    "mapping_provider": "sina_corp_profile+local_cache",
+    "updated_at": "2026-09-10 19:58:44",
+    "mapped_strong_count": 1,
+    "unresolved_strong_count": 29,
+    "confidence": "low",
+    "sectors": [
+      {
+        "industry": "半导体/电子制造",
+        "members": [
+          {
+            "code": "600667",
+            "name": "太极实业",
+            "price": 19.98,
+            "change_pct": 10.022,
+            "turnover_rate_pct": 9.12582,
+            "turnover_amount_yuan": 3743778504.0,
+            "board": "MAIN",
+            "limit_pct": 10.0,
+            "provider": "sina_market",
+            "rank_in_strong": 14
+          }
+        ],
+        "count": 1,
+        "limit_like_count": 1,
+        "amount_yuan": 3743778504.0,
+        "sum_change": 10.022,
+        "avg_change": 10.02,
+        "amount_yi": 37.4,
+        "member_names": [
+          "太极实业"
+        ],
+        "sector_score": 63.7
+      }
+    ],
     "mainlines": [],
     "leader_candidates": [],
-    "holding_relative_strength": [],
-    "error": "RemoteDisconnected('Remote end closed connection without response')"
+    "holding_relative_strength": [
+      {
+        "code": "600667",
+        "name": "太极实业",
+        "change_pct": 10.02,
+        "industry": "半导体/电子制造",
+        "sector_score": 63.7,
+        "sector_avg_change": 10.02,
+        "relative_strength": 0.0,
+        "relative_status": "同步"
+      },
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "change_pct": -6.55,
+        "industry": "医药制造",
+        "sector_score": null,
+        "sector_avg_change": null,
+        "relative_strength": -6.55,
+        "relative_status": "弱于同行"
+      },
+      {
+        "code": "603993",
+        "name": "洛阳钼业",
+        "change_pct": -0.42,
+        "industry": "有色金属/矿业",
+        "sector_score": null,
+        "sector_avg_change": null,
+        "relative_strength": -0.42,
+        "relative_status": "同步"
+      }
+    ]
   },
   "decision": {
     "status": "ok",
@@ -1553,7 +1611,10 @@
         "risk_tags": [
           "弱市追涨风险"
         ],
-        "action_hint": "仅观察"
+        "action_hint": "环境否决：仅观察",
+        "industry": null,
+        "sector_score": null,
+        "board_role": "未识别"
       },
       {
         "code": "600667",
@@ -1571,7 +1632,10 @@
         "risk_tags": [
           "弱市追涨风险"
         ],
-        "action_hint": "仅观察"
+        "action_hint": "环境否决：仅观察",
+        "industry": "半导体/电子制造",
+        "sector_score": null,
+        "board_role": "未识别"
       },
       {
         "code": "603601",
@@ -1589,7 +1653,10 @@
         "risk_tags": [
           "弱市追涨风险"
         ],
-        "action_hint": "仅观察"
+        "action_hint": "环境否决：仅观察",
+        "industry": null,
+        "sector_score": null,
+        "board_role": "未识别"
       },
       {
         "code": "002636",
@@ -1607,7 +1674,10 @@
         "risk_tags": [
           "弱市追涨风险"
         ],
-        "action_hint": "仅观察"
+        "action_hint": "环境否决：仅观察",
+        "industry": null,
+        "sector_score": null,
+        "board_role": "未识别"
       },
       {
         "code": "603318",
@@ -1625,7 +1695,10 @@
         "risk_tags": [
           "弱市追涨风险"
         ],
-        "action_hint": "仅观察"
+        "action_hint": "环境否决：仅观察",
+        "industry": null,
+        "sector_score": null,
+        "board_role": "未识别"
       },
       {
         "code": "600318",
@@ -1643,7 +1716,10 @@
         "risk_tags": [
           "弱市追涨风险"
         ],
-        "action_hint": "仅观察"
+        "action_hint": "环境否决：仅观察",
+        "industry": null,
+        "sector_score": null,
+        "board_role": "未识别"
       },
       {
         "code": "600488",
@@ -1661,7 +1737,10 @@
         "risk_tags": [
           "弱市追涨风险"
         ],
-        "action_hint": "仅观察"
+        "action_hint": "环境否决：仅观察",
+        "industry": null,
+        "sector_score": null,
+        "board_role": "未识别"
       },
       {
         "code": "000978",
@@ -1679,7 +1758,10 @@
         "risk_tags": [
           "弱市追涨风险"
         ],
-        "action_hint": "仅观察"
+        "action_hint": "环境否决：仅观察",
+        "industry": null,
+        "sector_score": null,
+        "board_role": "未识别"
       }
     ],
     "holding_alerts": [
@@ -1705,19 +1787,8 @@
         "note": ""
       }
     ],
-    "mainline_groups": [
-      {
-        "name": "强势股集群",
-        "score": 90.3,
-        "limit_count": 34,
-        "fried_count": 29,
-        "avg_top10_change": 10.59,
-        "top10_amount_yi": 85.7,
-        "confidence": "低-中",
-        "note": "当前未接稳定板块分类源，仅作为强势资金集群，不等同真实题材主线"
-      }
-    ],
-    "data_quality": "cached",
+    "mainline_groups": [],
+    "data_quality": "fresh",
     "hard_rules": [
       "冰点环境候选仅观察，不因涨停追入",
       "退潮期不接后排",
@@ -1726,12 +1797,10 @@
       "盈利不代表过程正确"
     ],
     "mainline_confidence": "low",
-    "mainline_note": "板块数据不可用，维持仅按市场/个股评分"
+    "mainline_note": "主线来自强势股行业聚合；不依赖东方财富板块接口"
   },
   "github_bridge": {
-    "state": "queued_retry",
-    "repository": "yao37049193-cloud/astock-bridge",
-    "message": "TimeoutExpired(['git', 'pull', '--rebase', 'origin', 'main'], 45)"
+    "state": "idle"
   },
   "last_error": null
 }
