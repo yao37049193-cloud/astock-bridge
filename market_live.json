@@ -1,6 +1,6 @@
 {
   "version": "1.7",
-  "updated_at": "2026-09-18 15:27:53",
+  "updated_at": "2026-09-18 15:32:54",
   "status": "running",
   "core_provider": "tencent",
   "indices": [
@@ -2583,7 +2583,7 @@
   "tag_layer": {
     "status": "ok",
     "provider": "local_tag_engine",
-    "updated_at": "2026-09-18 15:27:53",
+    "updated_at": "2026-09-18 15:32:54",
     "mainlines": [
       {
         "tag": "新材料",
@@ -3064,7 +3064,7 @@
         "from_open_pct": 4.4568,
         "m5": 0.0,
         "m15": 0.0,
-        "m30": -0.1332,
+        "m30": 0.0,
         "risk_tags": [],
         "action_hint": "等待触发"
       },
@@ -3093,7 +3093,7 @@
         "from_open_pct": -0.1161,
         "m5": 0.0,
         "m15": 0.0,
-        "m30": 0.4477,
+        "m30": 0.0,
         "risk_tags": [],
         "action_hint": "等待触发"
       },
@@ -3211,7 +3211,7 @@
         "from_open_pct": -0.2857,
         "m5": 0.0,
         "m15": 0.0,
-        "m30": -0.1589,
+        "m30": 0.0,
         "risk_tags": [],
         "action_hint": "等待触发"
       },
@@ -3269,7 +3269,7 @@
         "from_open_pct": 0.9422,
         "m5": 0.0,
         "m15": 0.0,
-        "m30": 0.0301,
+        "m30": 0.0,
         "risk_tags": [],
         "action_hint": "等待触发"
       },
@@ -3327,7 +3327,7 @@
         "from_open_pct": -0.3415,
         "m5": 0.0,
         "m15": 0.0,
-        "m30": -0.1141,
+        "m30": 0.0,
         "risk_tags": [],
         "action_hint": "等待触发"
       }
@@ -3354,7 +3354,7 @@
         "momentum": {
           "m5": 0.0,
           "m15": 0.0,
-          "m30": -0.1332
+          "m30": 0.0
         }
       },
       {
@@ -3366,7 +3366,7 @@
         "momentum": {
           "m5": 0.0,
           "m15": 0.0,
-          "m30": -0.1141
+          "m30": 0.0
         }
       }
     ],
@@ -3546,7 +3546,7 @@
   },
   "last_error": null,
   "tomorrow_plan": {
-    "generated_at": "2026-09-18 15:27:53",
+    "generated_at": "2026-09-18 15:32:54",
     "for_next_trading_day": "next_trading_day",
     "market_grade": "A",
     "market_environment": "偏强/上升",
