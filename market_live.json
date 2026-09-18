@@ -1,6 +1,6 @@
 {
   "version": "1.8",
-  "updated_at": "2026-09-18 18:52:20",
+  "updated_at": "2026-09-18 18:57:21",
   "status": "running",
   "core_provider": "tencent",
   "indices": [
@@ -2583,7 +2583,7 @@
   "tag_layer": {
     "status": "ok",
     "provider": "local_tag_engine",
-    "updated_at": "2026-09-18 18:52:20",
+    "updated_at": "2026-09-18 18:57:21",
     "mainlines": [
       {
         "tag": "新材料",
@@ -3546,7 +3546,7 @@
   },
   "last_error": null,
   "tomorrow_plan": {
-    "generated_at": "2026-09-18 18:52:20",
+    "generated_at": "2026-09-18 18:57:21",
     "for_next_trading_day": "next_trading_day",
     "market_grade": "A",
     "market_environment": "偏强/上升",
