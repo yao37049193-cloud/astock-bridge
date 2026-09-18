@@ -1,7 +1,7 @@
 {
   "version": "1.8",
   "date": "2026-09-18",
-  "updated_at": "2026-09-18 20:52:59",
+  "updated_at": "2026-09-18 20:58:12",
   "session": "offhours",
   "indices": [
     {
@@ -1256,7 +1256,7 @@
   "market_environment": "偏强/上升",
   "hard_gate": "OPEN",
   "tomorrow_plan": {
-    "generated_at": "2026-09-18 20:52:59",
+    "generated_at": "2026-09-18 20:58:12",
     "for_next_trading_day": "next_trading_day",
     "market_grade": "A",
     "market_environment": "偏强/上升",
