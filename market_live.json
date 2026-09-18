@@ -1,6 +1,6 @@
 {
   "version": "1.7",
-  "updated_at": "2026-09-18 15:07:10",
+  "updated_at": "2026-09-18 15:12:11",
   "status": "running",
   "core_provider": "tencent",
   "indices": [
@@ -2583,7 +2583,7 @@
   "tag_layer": {
     "status": "ok",
     "provider": "local_tag_engine",
-    "updated_at": "2026-09-18 15:07:10",
+    "updated_at": "2026-09-18 15:12:11",
     "mainlines": [
       {
         "tag": "新材料",
@@ -3041,34 +3041,6 @@
     "one_lot_rule": "新短线仅一手，不加仓；退出条件触发时整手卖出",
     "priority_watch": [
       {
-        "code": "600664",
-        "name": "哈药股份",
-        "group": "holding",
-        "tags": [
-          "医药"
-        ],
-        "price": 7.5,
-        "prev_close": 7.42,
-        "open": 7.18,
-        "high": 7.78,
-        "low": 7.13,
-        "change_pct": 1.08,
-        "volume_lots": 5069140.0,
-        "turnover_amount_yuan": 3794530000.0,
-        "turnover_rate_pct": 20.13,
-        "volume_ratio": 8.16,
-        "provider": "tencent",
-        "decision_score": 93.5,
-        "setup": "观察",
-        "gap_pct": -3.2345,
-        "from_open_pct": 4.4568,
-        "m5": 0.0,
-        "m15": 0.1335,
-        "m30": 0.0,
-        "risk_tags": [],
-        "action_hint": "等待触发"
-      },
-      {
         "code": "600206",
         "name": "有研新材",
         "group": "watch",
@@ -3092,8 +3064,36 @@
         "gap_pct": 2.1958,
         "from_open_pct": -0.1161,
         "m5": 0.0,
-        "m15": 0.4282,
-        "m30": 0.4869,
+        "m15": 0.4673,
+        "m30": 0.6437,
+        "risk_tags": [],
+        "action_hint": "等待触发"
+      },
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "group": "holding",
+        "tags": [
+          "医药"
+        ],
+        "price": 7.5,
+        "prev_close": 7.42,
+        "open": 7.18,
+        "high": 7.78,
+        "low": 7.13,
+        "change_pct": 1.08,
+        "volume_lots": 5069140.0,
+        "turnover_amount_yuan": 3794530000.0,
+        "turnover_rate_pct": 20.13,
+        "volume_ratio": 8.16,
+        "provider": "tencent",
+        "decision_score": 88.5,
+        "setup": "观察",
+        "gap_pct": -3.2345,
+        "from_open_pct": 4.4568,
+        "m5": 0.0,
+        "m15": -0.1332,
+        "m30": 0.1335,
         "risk_tags": [],
         "action_hint": "等待触发"
       },
@@ -3121,8 +3121,8 @@
         "gap_pct": 2.9655,
         "from_open_pct": -3.3994,
         "m5": 0.0,
-        "m15": -0.4864,
-        "m30": -0.6314,
+        "m15": -0.0977,
+        "m30": -0.7278,
         "risk_tags": [],
         "action_hint": "等待触发"
       },
@@ -3150,8 +3150,8 @@
         "gap_pct": 0.0449,
         "from_open_pct": 1.6364,
         "m5": 0.0,
-        "m15": 0.4208,
-        "m30": 0.4208,
+        "m15": 0.0221,
+        "m30": 1.0025,
         "risk_tags": [],
         "action_hint": "等待触发"
       },
@@ -3187,35 +3187,6 @@
         "action_hint": "等待触发"
       },
       {
-        "code": "600172",
-        "name": "黄河旋风",
-        "group": "watch",
-        "tags": [
-          "新材料",
-          "超硬材料"
-        ],
-        "price": 16.0,
-        "prev_close": 16.06,
-        "open": 16.21,
-        "high": 16.3,
-        "low": 15.61,
-        "change_pct": -0.37,
-        "volume_lots": 1571076.0,
-        "turnover_amount_yuan": 2496830000.0,
-        "turnover_rate_pct": 12.23,
-        "volume_ratio": 17.67,
-        "provider": "tencent",
-        "decision_score": 79.3,
-        "setup": "观察",
-        "gap_pct": 0.934,
-        "from_open_pct": -1.2955,
-        "m5": 0.0,
-        "m15": 0.5657,
-        "m30": 0.6289,
-        "risk_tags": [],
-        "action_hint": "等待触发"
-      },
-      {
         "code": "002407",
         "name": "多氟多",
         "group": "watch",
@@ -3239,8 +3210,8 @@
         "gap_pct": 0.9512,
         "from_open_pct": 0.9422,
         "m5": 0.0,
-        "m15": 0.0603,
-        "m30": 0.0603,
+        "m15": 0.0301,
+        "m30": 0.0301,
         "risk_tags": [],
         "action_hint": "等待触发"
       },
@@ -3268,8 +3239,37 @@
         "gap_pct": 1.9417,
         "from_open_pct": -0.2857,
         "m5": 0.0,
-        "m15": -0.1907,
-        "m30": -0.3174,
+        "m15": -0.0954,
+        "m30": -0.349,
+        "risk_tags": [],
+        "action_hint": "等待触发"
+      },
+      {
+        "code": "600172",
+        "name": "黄河旋风",
+        "group": "watch",
+        "tags": [
+          "新材料",
+          "超硬材料"
+        ],
+        "price": 16.0,
+        "prev_close": 16.06,
+        "open": 16.21,
+        "high": 16.3,
+        "low": 15.61,
+        "change_pct": -0.37,
+        "volume_lots": 1571076.0,
+        "turnover_amount_yuan": 2496830000.0,
+        "turnover_rate_pct": 12.23,
+        "volume_ratio": 17.67,
+        "provider": "tencent",
+        "decision_score": 74.3,
+        "setup": "观察",
+        "gap_pct": 0.934,
+        "from_open_pct": -1.2955,
+        "m5": 0.0,
+        "m15": -0.1248,
+        "m30": 0.8192,
         "risk_tags": [],
         "action_hint": "等待触发"
       },
@@ -3297,8 +3297,8 @@
         "gap_pct": 0.8116,
         "from_open_pct": -0.0671,
         "m5": 0.0,
-        "m15": 0.1345,
-        "m30": 0.2355,
+        "m15": 0.0336,
+        "m30": 0.1345,
         "risk_tags": [],
         "action_hint": "等待触发"
       },
@@ -3326,8 +3326,8 @@
         "gap_pct": 0.8233,
         "from_open_pct": 4.8995,
         "m5": 0.0,
-        "m15": -0.2389,
-        "m30": -0.2985,
+        "m15": -0.1196,
+        "m30": -0.2389,
         "risk_tags": [],
         "action_hint": "等待触发"
       }
@@ -3341,8 +3341,8 @@
         "setup": "观察",
         "momentum": {
           "m5": 0.0,
-          "m15": -0.4864,
-          "m30": -0.6314
+          "m15": -0.0977,
+          "m30": -0.7278
         }
       },
       {
@@ -3353,8 +3353,8 @@
         "setup": "观察",
         "momentum": {
           "m5": 0.0,
-          "m15": 0.1335,
-          "m30": 0.0
+          "m15": -0.1332,
+          "m30": 0.1335
         }
       },
       {
@@ -3366,7 +3366,7 @@
         "momentum": {
           "m5": 0.0,
           "m15": -0.0571,
-          "m30": 0.0571
+          "m30": 0.0
         }
       }
     ],
@@ -3546,29 +3546,12 @@
   },
   "last_error": null,
   "tomorrow_plan": {
-    "generated_at": "2026-09-18 15:07:10",
+    "generated_at": "2026-09-18 15:12:11",
     "for_next_trading_day": "next_trading_day",
     "market_grade": "A",
     "market_environment": "偏强/上升",
     "hard_gate": "OPEN",
     "plan": [
-      {
-        "code": "600664",
-        "name": "哈药股份",
-        "group": "holding",
-        "score": 93.5,
-        "setup": "观察",
-        "today_change_pct": 1.08,
-        "trigger_price_ref": 7.78,
-        "invalid_price_ref": 7.13,
-        "tags": [
-          "医药"
-        ],
-        "notes": [
-          "突破今日高点仅作为观察触发",
-          "跌破今日低点视为短线结构失效参考"
-        ]
-      },
       {
         "code": "600206",
         "name": "有研新材",
@@ -3581,6 +3564,23 @@
         "tags": [
           "新材料",
           "电子材料"
+        ],
+        "notes": [
+          "突破今日高点仅作为观察触发",
+          "跌破今日低点视为短线结构失效参考"
+        ]
+      },
+      {
+        "code": "600664",
+        "name": "哈药股份",
+        "group": "holding",
+        "score": 88.5,
+        "setup": "观察",
+        "today_change_pct": 1.08,
+        "trigger_price_ref": 7.78,
+        "invalid_price_ref": 7.13,
+        "tags": [
+          "医药"
         ],
         "notes": [
           "突破今日高点仅作为观察触发",
@@ -3642,24 +3642,6 @@
         ]
       },
       {
-        "code": "600172",
-        "name": "黄河旋风",
-        "group": "watch",
-        "score": 79.3,
-        "setup": "观察",
-        "today_change_pct": -0.37,
-        "trigger_price_ref": 16.3,
-        "invalid_price_ref": 15.61,
-        "tags": [
-          "新材料",
-          "超硬材料"
-        ],
-        "notes": [
-          "突破今日高点仅作为观察触发",
-          "跌破今日低点视为短线结构失效参考"
-        ]
-      },
-      {
         "code": "002407",
         "name": "多氟多",
         "group": "watch",
@@ -3689,6 +3671,24 @@
         "tags": [
           "有色金属",
           "黄金/铜"
+        ],
+        "notes": [
+          "突破今日高点仅作为观察触发",
+          "跌破今日低点视为短线结构失效参考"
+        ]
+      },
+      {
+        "code": "600172",
+        "name": "黄河旋风",
+        "group": "watch",
+        "score": 74.3,
+        "setup": "观察",
+        "today_change_pct": -0.37,
+        "trigger_price_ref": 16.3,
+        "invalid_price_ref": 15.61,
+        "tags": [
+          "新材料",
+          "超硬材料"
         ],
         "notes": [
           "突破今日高点仅作为观察触发",
