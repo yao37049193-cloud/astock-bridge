@@ -1,6 +1,6 @@
 {
   "version": "1.7",
-  "updated_at": "2026-09-18 15:12:11",
+  "updated_at": "2026-09-18 15:17:30",
   "status": "running",
   "core_provider": "tencent",
   "indices": [
@@ -300,7 +300,7 @@
   "market": {
     "status": "ok",
     "provider": "sina_market",
-    "updated_at": "2026-09-18 15:07:10",
+    "updated_at": "2026-09-18 15:17:30",
     "stale": false,
     "sample_count": 5564,
     "user_tradable_sample": 4414,
@@ -2583,7 +2583,7 @@
   "tag_layer": {
     "status": "ok",
     "provider": "local_tag_engine",
-    "updated_at": "2026-09-18 15:12:11",
+    "updated_at": "2026-09-18 15:17:30",
     "mainlines": [
       {
         "tag": "新材料",
@@ -3041,35 +3041,6 @@
     "one_lot_rule": "新短线仅一手，不加仓；退出条件触发时整手卖出",
     "priority_watch": [
       {
-        "code": "600206",
-        "name": "有研新材",
-        "group": "watch",
-        "tags": [
-          "新材料",
-          "电子材料"
-        ],
-        "price": 51.6,
-        "prev_close": 50.55,
-        "open": 51.66,
-        "high": 51.9,
-        "low": 49.58,
-        "change_pct": 2.08,
-        "volume_lots": 1105586.0,
-        "turnover_amount_yuan": 5631400000.0,
-        "turnover_rate_pct": 13.06,
-        "volume_ratio": 55.61,
-        "provider": "tencent",
-        "decision_score": 90.5,
-        "setup": "趋势转强观察",
-        "gap_pct": 2.1958,
-        "from_open_pct": -0.1161,
-        "m5": 0.0,
-        "m15": 0.4673,
-        "m30": 0.6437,
-        "risk_tags": [],
-        "action_hint": "等待触发"
-      },
-      {
         "code": "600664",
         "name": "哈药股份",
         "group": "holding",
@@ -3092,8 +3063,37 @@
         "gap_pct": -3.2345,
         "from_open_pct": 4.4568,
         "m5": 0.0,
-        "m15": -0.1332,
-        "m30": 0.1335,
+        "m15": 0.0,
+        "m30": -0.1332,
+        "risk_tags": [],
+        "action_hint": "等待触发"
+      },
+      {
+        "code": "600206",
+        "name": "有研新材",
+        "group": "watch",
+        "tags": [
+          "新材料",
+          "电子材料"
+        ],
+        "price": 51.6,
+        "prev_close": 50.55,
+        "open": 51.66,
+        "high": 51.9,
+        "low": 49.58,
+        "change_pct": 2.08,
+        "volume_lots": 1105586.0,
+        "turnover_amount_yuan": 5631400000.0,
+        "turnover_rate_pct": 13.06,
+        "volume_ratio": 55.61,
+        "provider": "tencent",
+        "decision_score": 85.5,
+        "setup": "观察",
+        "gap_pct": 2.1958,
+        "from_open_pct": -0.1161,
+        "m5": 0.0,
+        "m15": 0.0,
+        "m30": 0.526,
         "risk_tags": [],
         "action_hint": "等待触发"
       },
@@ -3121,37 +3121,8 @@
         "gap_pct": 2.9655,
         "from_open_pct": -3.3994,
         "m5": 0.0,
-        "m15": -0.0977,
-        "m30": -0.7278,
-        "risk_tags": [],
-        "action_hint": "等待触发"
-      },
-      {
-        "code": "300179",
-        "name": "四方达",
-        "group": "watch",
-        "tags": [
-          "新材料",
-          "超硬材料"
-        ],
-        "price": 45.34,
-        "prev_close": 44.59,
-        "open": 44.61,
-        "high": 45.5,
-        "low": 43.55,
-        "change_pct": 1.68,
-        "volume_lots": 545392.0,
-        "turnover_amount_yuan": 2431060000.0,
-        "turnover_rate_pct": 14.52,
-        "volume_ratio": 53.51,
-        "provider": "tencent",
-        "decision_score": 84.0,
-        "setup": "观察",
-        "gap_pct": 0.0449,
-        "from_open_pct": 1.6364,
-        "m5": 0.0,
-        "m15": 0.0221,
-        "m30": 1.0025,
+        "m15": 0.0,
+        "m30": -0.5831,
         "risk_tags": [],
         "action_hint": "等待触发"
       },
@@ -3187,31 +3158,31 @@
         "action_hint": "等待触发"
       },
       {
-        "code": "002407",
-        "name": "多氟多",
+        "code": "300179",
+        "name": "四方达",
         "group": "watch",
         "tags": [
-          "化工",
-          "锂电材料"
+          "新材料",
+          "超硬材料"
         ],
-        "price": 33.21,
-        "prev_close": 32.59,
-        "open": 32.9,
-        "high": 33.36,
-        "low": 32.55,
-        "change_pct": 1.9,
-        "volume_lots": 678388.0,
-        "turnover_amount_yuan": 2243930000.0,
-        "turnover_rate_pct": 6.28,
-        "volume_ratio": 35.85,
+        "price": 45.34,
+        "prev_close": 44.59,
+        "open": 44.61,
+        "high": 45.5,
+        "low": 43.55,
+        "change_pct": 1.68,
+        "volume_lots": 545392.0,
+        "turnover_amount_yuan": 2431060000.0,
+        "turnover_rate_pct": 14.52,
+        "volume_ratio": 53.51,
         "provider": "tencent",
-        "decision_score": 77.9,
+        "decision_score": 79.0,
         "setup": "观察",
-        "gap_pct": 0.9512,
-        "from_open_pct": 0.9422,
+        "gap_pct": 0.0449,
+        "from_open_pct": 1.6364,
         "m5": 0.0,
-        "m15": 0.0301,
-        "m30": 0.0301,
+        "m15": 0.0,
+        "m30": 0.9125,
         "risk_tags": [],
         "action_hint": "等待触发"
       },
@@ -3239,8 +3210,8 @@
         "gap_pct": 1.9417,
         "from_open_pct": -0.2857,
         "m5": 0.0,
-        "m15": -0.0954,
-        "m30": -0.349,
+        "m15": 0.0,
+        "m30": -0.2857,
         "risk_tags": [],
         "action_hint": "等待触发"
       },
@@ -3268,37 +3239,37 @@
         "gap_pct": 0.934,
         "from_open_pct": -1.2955,
         "m5": 0.0,
-        "m15": -0.1248,
-        "m30": 0.8192,
+        "m15": 0.0,
+        "m30": 0.6289,
         "risk_tags": [],
         "action_hint": "等待触发"
       },
       {
-        "code": "002747",
-        "name": "埃斯顿",
+        "code": "002407",
+        "name": "多氟多",
         "group": "watch",
         "tags": [
-          "机器人",
-          "自动化"
+          "化工",
+          "锂电材料"
         ],
-        "price": 29.79,
-        "prev_close": 29.57,
-        "open": 29.81,
-        "high": 29.97,
-        "low": 29.2,
-        "change_pct": 0.74,
-        "volume_lots": 342105.0,
-        "turnover_amount_yuan": 1013510000.0,
-        "turnover_rate_pct": 4.36,
-        "volume_ratio": 32.53,
+        "price": 33.21,
+        "prev_close": 32.59,
+        "open": 32.9,
+        "high": 33.36,
+        "low": 32.55,
+        "change_pct": 1.9,
+        "volume_lots": 678388.0,
+        "turnover_amount_yuan": 2243930000.0,
+        "turnover_rate_pct": 6.28,
+        "volume_ratio": 35.85,
         "provider": "tencent",
-        "decision_score": 70.6,
+        "decision_score": 72.9,
         "setup": "观察",
-        "gap_pct": 0.8116,
-        "from_open_pct": -0.0671,
+        "gap_pct": 0.9512,
+        "from_open_pct": 0.9422,
         "m5": 0.0,
-        "m15": 0.0336,
-        "m30": 0.1345,
+        "m15": 0.0,
+        "m30": 0.0301,
         "risk_tags": [],
         "action_hint": "等待触发"
       },
@@ -3326,8 +3297,37 @@
         "gap_pct": 0.8233,
         "from_open_pct": 4.8995,
         "m5": 0.0,
-        "m15": -0.1196,
+        "m15": 0.0,
         "m30": -0.2389,
+        "risk_tags": [],
+        "action_hint": "等待触发"
+      },
+      {
+        "code": "603993",
+        "name": "洛阳钼业",
+        "group": "holding",
+        "tags": [
+          "有色金属",
+          "铜钴资源"
+        ],
+        "price": 17.51,
+        "prev_close": 17.35,
+        "open": 17.57,
+        "high": 17.66,
+        "low": 17.35,
+        "change_pct": 0.92,
+        "volume_lots": 1287417.0,
+        "turnover_amount_yuan": 2252390000.0,
+        "turnover_rate_pct": 0.74,
+        "volume_ratio": 19.09,
+        "provider": "tencent",
+        "decision_score": 69.5,
+        "setup": "观察",
+        "gap_pct": 1.268,
+        "from_open_pct": -0.3415,
+        "m5": 0.0,
+        "m15": 0.0,
+        "m30": 0.0,
         "risk_tags": [],
         "action_hint": "等待触发"
       }
@@ -3341,8 +3341,8 @@
         "setup": "观察",
         "momentum": {
           "m5": 0.0,
-          "m15": -0.0977,
-          "m30": -0.7278
+          "m15": 0.0,
+          "m30": -0.5831
         }
       },
       {
@@ -3353,8 +3353,8 @@
         "setup": "观察",
         "momentum": {
           "m5": 0.0,
-          "m15": -0.1332,
-          "m30": 0.1335
+          "m15": 0.0,
+          "m30": -0.1332
         }
       },
       {
@@ -3365,7 +3365,7 @@
         "setup": "观察",
         "momentum": {
           "m5": 0.0,
-          "m15": -0.0571,
+          "m15": 0.0,
           "m30": 0.0
         }
       }
@@ -3546,30 +3546,12 @@
   },
   "last_error": null,
   "tomorrow_plan": {
-    "generated_at": "2026-09-18 15:12:11",
+    "generated_at": "2026-09-18 15:17:30",
     "for_next_trading_day": "next_trading_day",
     "market_grade": "A",
     "market_environment": "偏强/上升",
     "hard_gate": "OPEN",
     "plan": [
-      {
-        "code": "600206",
-        "name": "有研新材",
-        "group": "watch",
-        "score": 90.5,
-        "setup": "趋势转强观察",
-        "today_change_pct": 2.08,
-        "trigger_price_ref": 51.9,
-        "invalid_price_ref": 49.58,
-        "tags": [
-          "新材料",
-          "电子材料"
-        ],
-        "notes": [
-          "突破今日高点仅作为观察触发",
-          "跌破今日低点视为短线结构失效参考"
-        ]
-      },
       {
         "code": "600664",
         "name": "哈药股份",
@@ -3581,6 +3563,24 @@
         "invalid_price_ref": 7.13,
         "tags": [
           "医药"
+        ],
+        "notes": [
+          "突破今日高点仅作为观察触发",
+          "跌破今日低点视为短线结构失效参考"
+        ]
+      },
+      {
+        "code": "600206",
+        "name": "有研新材",
+        "group": "watch",
+        "score": 85.5,
+        "setup": "观察",
+        "today_change_pct": 2.08,
+        "trigger_price_ref": 51.9,
+        "invalid_price_ref": 49.58,
+        "tags": [
+          "新材料",
+          "电子材料"
         ],
         "notes": [
           "突破今日高点仅作为观察触发",
@@ -3606,24 +3606,6 @@
         ]
       },
       {
-        "code": "300179",
-        "name": "四方达",
-        "group": "watch",
-        "score": 84.0,
-        "setup": "观察",
-        "today_change_pct": 1.68,
-        "trigger_price_ref": 45.5,
-        "invalid_price_ref": 43.55,
-        "tags": [
-          "新材料",
-          "超硬材料"
-        ],
-        "notes": [
-          "突破今日高点仅作为观察触发",
-          "跌破今日低点视为短线结构失效参考"
-        ]
-      },
-      {
         "code": "001229",
         "name": "魅视科技",
         "group": "watch",
@@ -3642,17 +3624,17 @@
         ]
       },
       {
-        "code": "002407",
-        "name": "多氟多",
+        "code": "300179",
+        "name": "四方达",
         "group": "watch",
-        "score": 77.9,
+        "score": 79.0,
         "setup": "观察",
-        "today_change_pct": 1.9,
-        "trigger_price_ref": 33.36,
-        "invalid_price_ref": 32.55,
+        "today_change_pct": 1.68,
+        "trigger_price_ref": 45.5,
+        "invalid_price_ref": 43.55,
         "tags": [
-          "化工",
-          "锂电材料"
+          "新材料",
+          "超硬材料"
         ],
         "notes": [
           "突破今日高点仅作为观察触发",
@@ -3689,6 +3671,24 @@
         "tags": [
           "新材料",
           "超硬材料"
+        ],
+        "notes": [
+          "突破今日高点仅作为观察触发",
+          "跌破今日低点视为短线结构失效参考"
+        ]
+      },
+      {
+        "code": "002407",
+        "name": "多氟多",
+        "group": "watch",
+        "score": 72.9,
+        "setup": "观察",
+        "today_change_pct": 1.9,
+        "trigger_price_ref": 33.36,
+        "invalid_price_ref": 32.55,
+        "tags": [
+          "化工",
+          "锂电材料"
         ],
         "notes": [
           "突破今日高点仅作为观察触发",
